@@ -12,7 +12,7 @@ interface MenuItem {
 export class NavbarComponent {
 
   public menuItems: MenuItem[] = [
-    { route: './about', name: 'Acerca de' },
+    { route: './about', name: 'Acerca de mí' },
     { route: './experience', name: 'Experiencia' },
     { route: './knowledge', name: 'Conocimientos' },
   ];

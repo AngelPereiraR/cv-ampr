@@ -1,54 +1,43 @@
 <mat-sidenav-container>
 
   <div class="top-navbar">
-    <mat-toolbar color="primary">
-      <mat-toolbar-row>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col text-start">
-              Ángel Manuel Pereira Rodríguez
-            </div>
-            <div class="col text-end">
-              Desarrollador Júnior de Software y Qlik
-            </div>
-          </div>
+    <div class="container-fluid">
+      <div class="row row-cols-2">
+        <div class="col text-start">
+          <h2>Ángel Manuel Pereira Rodríguez</h2>
         </div>
-        <div class="m-5">
-          <button *ngFor="let item of menuItems" class="btn btn-success m-2" [routerLink]="[item.route]"
-            routerLinkActive="active">
-            {{item.name}}
-          </button>
+        <div class="col text-center">
+          <h2>Desarrollador Júnior de Software y Qlik</h2>
         </div>
-      </mat-toolbar-row>
-    </mat-toolbar>
+      </div>
+
+      <div class="text-center">
+        <button *ngFor="let item of menuItems" class="btn btn-success" [routerLink]="[item.route]"
+          routerLinkActive="active">
+          {{item.name}}
+        </button>
+      </div>
+    </div>
   </div>
 
-  <div class="container content">
+  <div class="content background">
     <router-outlet></router-outlet>
   </div>
 
   <div class="bottom-navbar">
-    <mat-toolbar color="primary">
-      <mat-toolbar-row>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col text-start">
-              <a href="https://www.linkedin.com/in/%C3%A1ngel-manuel-pereira-rodr%C3%ADguez-009730253/">
-                <img
-                  src="../assets/LinkedIn.png"
-                  alt="Linkedin">
-              </a>
-            </div>
-            <div class="col text-end">
-              <a href="https://github.com/SpiritVideogames">
-                <img
-                  src="../assets/GitHub.png"
-                  alt="GitHub">
-              </a>
-            </div>
-          </div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col text-start">
+          <a href="https://www.linkedin.com/in/%C3%A1ngel-manuel-pereira-rodr%C3%ADguez-009730253/">
+            <img src="../assets/LinkedIn.png" alt="Linkedin">
+          </a>
         </div>
-      </mat-toolbar-row>
-    </mat-toolbar>
+        <div class="col text-end">
+          <a href="https://github.com/SpiritVideogames">
+            <img src="../assets/GitHub.png" alt="GitHub">
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </mat-sidenav-container>

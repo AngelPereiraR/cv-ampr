@@ -6,6 +6,7 @@ import { NavbarComponent } from './pages/navbar/navbar.component';
 import { MaterialModule } from '../material/material.module';
 import { CvRoutingModule } from './cv-routing.module';
 import { ExperienceComponent } from './pages/experience/experience.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -19,7 +20,7 @@ import { ExperienceComponent } from './pages/experience/experience.component';
   imports: [
     CommonModule,
     MaterialModule,
-    CvRoutingModule
+    CvRoutingModule,
   ]
 })
 export class CvModule { }

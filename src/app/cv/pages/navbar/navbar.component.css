@@ -1,5 +1,5 @@
 button {
-  right: 5px;
+  margin: 13px;
 }
 
 img {
@@ -11,6 +11,9 @@ img {
   bottom: 0;
   width: 100%;
   z-index: 1000;
+  background-color: #273376;
+  color: white;
+  padding: 12px;
 }
 
 .top-navbar {
@@ -18,25 +21,41 @@ img {
   top: 0;
   width: 100%;
   z-index: 1000;
+  background-color: #273376;
+  color: white;
 }
 
-/* @media (min-width: 768px) {
+@media (max-width: 520px) {
+  /* Estilos para pantallas pequeñas (móviles) */
   .content {
-    height: 900px;
-    padding-top: 64px;
+    padding-top: 191px;
     padding-bottom: 64px;
   }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 521px) and (max-width: 862px) {
+  /* Estilos para tabletas */
   .content {
-    height: 700px;
-    padding-top: 64px;
+    padding-top: 159px;
     padding-bottom: 64px;
   }
-} */
+}
 
-.content {
+@media (min-width: 863px) {
+  /* Estilos para pantallas grandes */
+  .content {
+    padding-top: 127px;
+    padding-bottom: 64px;
+  }
+}
+
+/* .content {
   padding-top: 64px;
   padding-bottom: 64px;
+} */
+
+h2 {
+  margin-top: 15px;
+  margin-left: 40px;
+  text-align: center;
 }
