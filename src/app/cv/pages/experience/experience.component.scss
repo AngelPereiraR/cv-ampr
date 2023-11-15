@@ -60,14 +60,6 @@ div.header {
     display: block;
     width: 100%;
     z-index: 300;
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0);
-    /* IE6-9 */
   }
 
   h1 {
@@ -117,7 +109,6 @@ div.item {
   margin: {
     left: auto;
     right: auto;
-    top: 3.5rem;
   }
 
   div {
@@ -136,7 +127,7 @@ div.item {
   h3 {
     position: -webkit-sticky;
     position: sticky;
-    top: 5rem;
+    top: 0.5rem;
     color: #720404;
     margin: 0;
 
@@ -170,7 +161,7 @@ div.item {
         line-height: 1.2em;
         margin: 0;
         padding: 0 0 0 89px;
-        color: #636363;
+        color: #720404;
 
         @media (min-width: 62em) {
           font-size: 1em;
@@ -244,4 +235,25 @@ svg {
   border: 3px solid white;
   border-radius: 50%;
   box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+div.card-content {
+  font-size: 20px;
+  margin-top: 5px;
+  padding-bottom: 30px;
+}
+
+div.card-footer {
+  margin-top: 25px;
+  padding-bottom: 30px;
+}
+
+img.card {
+  height: 200px;
+  width: 350px;
+  transition: transform .5s;
+}
+
+img.card:hover {
+  transform: scale(1.2);
 }

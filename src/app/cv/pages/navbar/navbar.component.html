@@ -1,27 +1,54 @@
-<mat-sidenav-container fullscreen>
+<mat-sidenav-container>
 
-  <mat-toolbar color="primary">
-    <mat-toolbar-row>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col text-start">
-            Ángel Manuel Pereira Rodríguez
-          </div>
-          <div class="col text-end">
-            Desarrollador Júnior de Software y Qlik
+  <div class="top-navbar">
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col text-start">
+              Ángel Manuel Pereira Rodríguez
+            </div>
+            <div class="col text-end">
+              Desarrollador Júnior de Software y Qlik
+            </div>
           </div>
         </div>
-      </div>
-      <div class="m-5">
-        <button *ngFor="let item of menuItems" class="btn btn-success m-2" [routerLink]="[item.route]"
-          routerLinkActive="active">
-          {{item.name}}
-        </button>
-      </div>
-    </mat-toolbar-row>
-  </mat-toolbar>
+        <div class="m-5">
+          <button *ngFor="let item of menuItems" class="btn btn-success m-2" [routerLink]="[item.route]"
+            routerLinkActive="active">
+            {{item.name}}
+          </button>
+        </div>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </div>
 
-  <div class="container">
+  <div class="container content">
     <router-outlet></router-outlet>
+  </div>
+
+  <div class="bottom-navbar">
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col text-start">
+              <a href="https://www.linkedin.com/in/%C3%A1ngel-manuel-pereira-rodr%C3%ADguez-009730253/">
+                <img
+                  src="../assets/LinkedIn.png"
+                  alt="Linkedin">
+              </a>
+            </div>
+            <div class="col text-end">
+              <a href="https://github.com/SpiritVideogames">
+                <img
+                  src="../assets/GitHub.png"
+                  alt="GitHub">
+              </a>
+            </div>
+          </div>
+        </div>
+      </mat-toolbar-row>
+    </mat-toolbar>
   </div>
 </mat-sidenav-container>

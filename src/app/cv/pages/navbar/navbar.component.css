@@ -1,3 +1,42 @@
 button {
   right: 5px;
 }
+
+img {
+  width: 30px;
+}
+
+.bottom-navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.top-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* @media (min-width: 768px) {
+  .content {
+    height: 900px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+
+@media (max-width: 767px) {
+  .content {
+    height: 700px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+} */
+
+.content {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
