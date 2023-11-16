@@ -1,3 +1,59 @@
-<div [@slideIn]>
-  <p>knowledge works!</p>
+<div [@slideIn] class="">
+  <div class="header">
+    <h1><b>Mis conocimientos</b></h1>
+    <h2>Todos los cursos y certificaciones que tengo más las tecnologías que conozco actualmente.</h2>
+  </div>
+  <div class="item">
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-12 col-lg-6 col-xl-6">
+        <h1>Cursos y Certificaciones</h1>
+        <div class="row d-flex justify-content-center">
+          <div class="col">
+            <h2>Cursos</h2>
+            <div class="course">
+              <h3>Titulo Grado Superior de Desarrollo de Aplicaciones Multiplataforma</h3>
+              <h4>Centro Concertado de Enseñanza San Ignacio</h4>
+              <p>2021-2023</p>
+            </div>
+            <div class="course">
+              <h3>Titulo Bachillerato de Ciencias Tecnológico</h3>
+              <h4>Centro Concertado de Enseñanza San Ignacio</h4>
+              <p>2019-2021</p>
+            </div>
+            <div class="course">
+              <h3>Educación Secundaria</h3>
+              <h4>Centro Privado de Enseñanza Argantonio</h4>
+              <p>2015-2019</p>
+            </div>
+          </div>
+          <div class="col">
+            <h2>Certificados</h2>
+            <div class="certificate">
+              <h3>Legacy - Flutter: Tu guía completa para IOS y Android</h3>
+              <h4>Udemy</h4>
+              <p>2022-2023</p>
+            </div>
+            <div class="certificate">
+              <h3>JavaScript Moderno: Guía para dominar el lenguaje</h3>
+              <h4>Udemy</h4>
+              <p>2023</p>
+            </div>
+            <div class="certificate">
+              <h3>Angular: De cero a experto - Edición 2023</h3>
+              <h4>Udemy</h4>
+              <p>2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-6 col-xl-6 text-center">
+        <h1>Tecnologías</h1>
+        <div class="row d-flex justify-content-center">
+          <div *ngFor="let item of menuItems" class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+            <img [src]="item.route" [alt]="item.name">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
