@@ -15,7 +15,7 @@ body {
   font-family: 'Fira Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #79838c;
+  color: rgb(149, 149, 149);
 }
 
 a {
@@ -70,7 +70,7 @@ div.header {
       weight: 400;
     }
 
-    color: grey;
+    color: rgb(149, 149, 149);
     max-width: 30rem;
     margin: auto;
   }

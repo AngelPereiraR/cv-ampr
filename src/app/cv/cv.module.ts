@@ -7,6 +7,7 @@ import { MaterialModule } from '../material/material.module';
 import { CvRoutingModule } from './cv-routing.module';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { TranslocoRootModule } from '../transloco-root.module';
+import { CommonBackgroundComponent } from './components/common-background/common-background.component';
 
 
 
@@ -16,6 +17,7 @@ import { TranslocoRootModule } from '../transloco-root.module';
     KnowledgeComponent,
     NavbarComponent,
     ExperienceComponent,
+    CommonBackgroundComponent
   ],
   imports: [
     CommonModule,

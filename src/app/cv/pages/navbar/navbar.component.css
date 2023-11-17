@@ -25,37 +25,10 @@ img {
   color: white;
 }
 
-@media (max-width: 520px) {
-
-  /* Estilos para pantallas pequeñas (móviles) */
-  .content {
-    padding-top: 191px;
-    padding-bottom: 64px;
-  }
+.content {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-
-@media (min-width: 521px) and (max-width: 862px) {
-
-  /* Estilos para tabletas */
-  .content {
-    padding-top: 159px;
-    padding-bottom: 64px;
-  }
-}
-
-@media (min-width: 863px) {
-
-  /* Estilos para pantallas grandes */
-  .content {
-    padding-top: 127px;
-    padding-bottom: 64px;
-  }
-}
-
-/* .content {
-  padding-top: 64px;
-  padding-bottom: 64px;
-} */
 
 h2 {
   margin-top: 15px;
