@@ -15,21 +15,21 @@
 
       <div class="row">
         <div class="col-9 d-flex justify-content-center align-items-center">
-          <a class="list-group-item m-3 hover" [routerLink]="[menuItems[0].route]"
+          <a class="list-group-item m-2 hover" [routerLink]="[menuItems[0].route]"
             routerLinkActive="active">
             {{'navbar.buttons.about' | transloco}}
           </a>
-          <a class="list-group-item m-3 hover" [routerLink]="[menuItems[1].route]"
+          <a class="list-group-item m-2 hover" [routerLink]="[menuItems[1].route]"
             routerLinkActive="active">
             {{'navbar.buttons.experience' | transloco}}
           </a>
-          <a class="list-group-item m-3 hover" [routerLink]="[menuItems[2].route]"
+          <a class="list-group-item m-2 hover" [routerLink]="[menuItems[2].route]"
             routerLinkActive="active">
             {{'navbar.buttons.knowledge' | transloco}}
           </a>
         </div>
         <div class="col-3 d-flex justify-content-center align-items-center">
-          <li class="list-group-item m-3" *ngFor="let language of languagesList; index as i"
+          <li class="list-group-item m-2" *ngFor="let language of languagesList; index as i"
             (click)="changeLanguage(language.code)">
             <img [src]="language.imgUrl" [alt]="language.name" />
           </li>

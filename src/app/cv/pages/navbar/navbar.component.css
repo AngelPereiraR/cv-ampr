@@ -72,3 +72,7 @@ h2 {
   font-weight: bold;
   text-decoration: underline;
 }
+
+a {
+  font-size: 13px;
+}
