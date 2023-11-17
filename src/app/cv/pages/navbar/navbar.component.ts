@@ -11,21 +11,21 @@ interface MenuItem {
 })
 export class NavbarComponent {
 
-  constructor(private translocoService: TranslocoService) {}
+  constructor(private translocoService: TranslocoService) { }
 
   public languagesList:
     Array<Record<'imgUrl' | 'code' | 'name', string>> = [
-    {
-      imgUrl: '/assets/Spanish.svg',
-      code: 'es',
-      name: 'Spanish',
-    },
-    {
-      imgUrl: '/assets/English.svg',
-      code: 'en',
-      name: 'English',
-    },
-  ];
+      {
+        imgUrl: '/assets/Spanish.svg',
+        code: 'es',
+        name: 'Spanish',
+      },
+      {
+        imgUrl: '/assets/English.svg',
+        code: 'en',
+        name: 'English',
+      },
+    ];
 
   public changeLanguage(languageCode: string): void {
     this.translocoService.setActiveLang(languageCode);

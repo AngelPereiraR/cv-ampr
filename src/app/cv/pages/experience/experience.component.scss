@@ -24,17 +24,17 @@ body {
   font-family: 'Fira Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #79838c;
+  color: rgb(73, 73, 73);
   font-weight: bold;
 }
 
 a {
-  color: #3e83bf;
+  color: rgb(63, 60, 60);
   text-decoration: none;
   font-weight: bold;
 
   &:hover {
-    color: #0080ff;
+    color: #003f7e;
     font-weight: bold;
   }
 }
@@ -70,7 +70,6 @@ div.header {
     }
 
     font: {
-      weight: 200;
       size: 1.6em;
     }
 
@@ -86,10 +85,10 @@ div.header {
   h2 {
     font: {
       size: 1.1em;
-      weight: 400;
     }
 
-    color: rgb(149, 149, 149);
+    color: rgb(73, 73, 73);
+    font-weight: bold;
     max-width: 30rem;
     margin: auto;
   }
@@ -121,7 +120,7 @@ div.item {
       bottom: 0rem;
       left: 60px;
       z-index: 1;
-      background: red;
+      background: rgb(150, 0, 0);
       font-weight: bold;
     }
   }
@@ -130,7 +129,7 @@ div.item {
     position: -webkit-sticky;
     position: sticky;
     top: 0.5rem;
-    color: red;
+    color: rgb(150, 0, 0);
     margin: 0;
     font-weight: bold;
 
@@ -153,13 +152,12 @@ div.item {
 
         font: {
           size: .9em;
-          weight: 400;
         }
 
         line-height: 1.2em;
         margin: 0;
         padding: 0 0 0 89px;
-        color: red;
+        color: rgb(150, 0, 0);
         font-weight: bold;
 
         @media (min-width: 62em) {
@@ -189,8 +187,8 @@ div.item {
           content: '';
           width: 10px;
           height: 10px;
-          background: red;
-          border: 2px solid red;
+          background: rgb(150, 0, 0);
+          border: 2px solid rgb(150, 0, 0);
           @include border-radius(50%);
           position: absolute;
           left: 56px;
@@ -226,12 +224,6 @@ div.item {
   display: inline;
 }
 
-svg {
-  border: 3px solid white;
-  border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
-}
-
 div.card-content {
   font-size: 20px;
   margin-top: 5px;
@@ -243,13 +235,15 @@ div.card-footer {
   padding-bottom: 30px;
 }
 
-div.card, mat-card {
-  border-color: white;
-  border-width: 2px;
-  border-radius: 10%;
+div.card,
+mat-card {
   padding: 8px;
-  background: rgba(255, 255, 255, 0);
-  color: white;
+  background: rgba(255,255,255,0);
+  color: black;
+}
+
+mat-card {
+  background: rgba(5, 94, 135, 0.2);
 }
 
 img {

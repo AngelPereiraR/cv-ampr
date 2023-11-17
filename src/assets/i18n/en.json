@@ -16,26 +16,25 @@
     "plans": {
       "title": "Short term plans",
       "first_project": {
-        "value": "Carrying out a project.",
-        "description": "Project for an event for a Twitch streamer friend.",
+        "value": "1. Carrying out a project.",
+        "description": "| Project for an event for a Twitch streamer friend.",
         "backend": "Backend - NestJS",
         "frontend": "Frontend - Angular"
       },
       "second_project": {
-        "description": "Taking a Udemy course on Ionic."
+        "description": "2. Taking a Udemy course on Ionic."
       },
       "third_project": {
-        "description": "Taking a Udemy course on .NET."
+        "description": "3. Taking a Udemy course on .NET."
       },
       "forth_project": {
-        "value": "Carrying out a project.",
-        "description": "Project as Quality of Life of a game.",
+        "value": "4. Carrying out a project.",
+        "description": "| Project as Quality of Life of a game.",
         "backend": "Backend - NestJS",
         "frontend": "Frontend - Flutter"
       }
     },
-    "cv": "Download my CV",
-    "contact": "Contact me"
+    "cv": "Download my CV"
   },
   "experience": {
     "header": {
@@ -78,13 +77,13 @@
   "knowledge": {
     "header": {
       "title": "My Knowledge",
-      "description": "All the courses and certifications I have plus the technologies I currently know."
+      "description": "All the courses and certifications I have, plus the technologies I currently know how to work with."
     },
     "item": {
       "courses_and_certificates": {
-        "title": "Courses and Certifications in chronological order",
+        "title": "< Courses and Certifications in chronological order />",
         "courses": {
-          "title": "Courses",
+          "title": "< Courses />",
           "first_course": {
             "title": "Higher Degree in Multiplatform Application Development",
             "school": "San Ignacio Concerted Teaching Center",
@@ -102,7 +101,7 @@
           }
         },
         "certificates": {
-          "title": "Certificates",
+          "title": "< Certificates />",
           "first_certificate": {
             "title": "Angular: De cero a experto - Edición 2023",
             "institution": "Udemy",
@@ -130,7 +129,7 @@
           }
         }
       },
-      "tecnologies": "Tecnologies"
+      "technologies": "< Technologies />"
     }
   },
   "navbar": {

@@ -16,26 +16,25 @@
     "plans": {
       "title": "Planes a corto plazo",
       "first_project": {
-        "value": "Realización de un proyecto.",
-        "description": "Proyecto para un evento de un amigo streamer de Twitch.",
+        "value": "1. Realización de un proyecto.",
+        "description": "| Proyecto para un evento de un amigo streamer de Twitch.",
         "backend": "Backend - NestJS",
         "frontend": "Frontend - Angular"
       },
       "second_project": {
-        "description": "Realización de un curso de Udemy sobre Ionic."
+        "description": "2. Realización de un curso de Udemy sobre Ionic."
       },
       "third_project": {
-        "description": "Realización de un curso de Udemy sobre .NET."
+        "description": "3. Realización de un curso de Udemy sobre .NET."
       },
       "forth_project": {
-        "value": "Realización de un proyecto.",
-        "description": "Proyecto como Calidad de Vida de un juego.",
+        "value": "4. Realización de un proyecto.",
+        "description": "| Proyecto como Calidad de Vida de un juego.",
         "backend": "Backend - NestJS",
         "frontend": "Frontend - Flutter"
       }
     },
-    "cv": "Descarga mi CV",
-    "contact": "Contáctame"
+    "cv": "Descarga mi CV"
   },
   "experience": {
     "header": {
@@ -78,13 +77,13 @@
   "knowledge": {
     "header": {
       "title": "Mis conocimientos",
-      "description": "Todos los cursos y certificaciones que tengo más las tecnologías que conozco actualmente."
+      "description": "Todos los cursos y certificaciones que tengo, más las tecnologías con las que sé trabajar actualmente."
     },
     "item": {
       "courses_and_certificates": {
-        "title": "Cursos y Certificaciones en orden cronológico",
+        "title": "< Cursos y Certificaciones en orden cronológico />",
         "courses": {
-          "title": "Cursos",
+          "title": "< Cursos />",
           "first_course": {
             "title": "Título Grado Superior de Desarrollo de Aplicaciones Multiplataforma",
             "school": "Centro Concertado de Enseñanza San Ignacio",
@@ -102,7 +101,7 @@
           }
         },
         "certificates": {
-          "title": "Certificados",
+          "title": "< Certificados />",
           "first_certificate": {
             "title": "Angular: De cero a experto - Edición 2023",
             "institution": "Udemy",
@@ -130,7 +129,7 @@
           }
         }
       },
-      "tecnologies": "Tecnologías"
+      "technologies": "< Tecnologías />"
     }
   },
   "navbar": {
