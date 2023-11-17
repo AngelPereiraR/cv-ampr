@@ -1,40 +1,43 @@
 <div class="container">
   <div [@slideIn] class="row m-4 content">
     <div class="col-8 col-sm-8 col-md-9">
-      <h1><b>Acerca de mí</b></h1>
-      <h3><b>Nombre</b></h3>
-      <p class="p-1">Ángel Manuel Pereira Rodríguez</p>
-      <h3><b>Puesto</b></h3>
-      <p class="p-1">Desarrollador Júnior de Software y Qlik.</p>
-      <h3><b>Objetivos</b></h3>
-      <p class="p-1">Estoy interesado en el desarrollo para Android e IOS, especialmente en el backend.</p>
-      <h3><b>Planes a corto plazo</b></h3>
-      <p class="p-1">Realización de un proyecto.</p>
+      <h1><b>{{'about.title' | transloco}}</b></h1>
+      <h3><b>{{'about.name.title' | transloco}}</b></h3>
+      <p class="p-1">{{'about.name.value' | transloco}}</p>
+      <h3><b>{{'about.job.title' | transloco}}</b></h3>
+      <p class="p-1">{{'about.job.value' | transloco}}</p>
+      <h3><b>{{'about.objectives.title' | transloco}}</b></h3>
+      <p class="p-1">{{'about.objectives.value' | transloco}}</p>
+      <h3><b>{{'about.plans.title' | transloco}}</b></h3>
+      <p class="p-1">{{'about.plans.first_project.value' | transloco}}</p>
       <div class="row m-3">
         <div class="col">
-          Proyecto para un evento de un amigo streamer de Twitch.
+          {{'about.plans.first_project.description' | transloco}}
           <div class="row p-3">
             <div class="col-3">
-              Backend - NestJS
+              {{'about.plans.first_project.backend' | transloco}}
             </div>
             <div class="col">
-              Frontend - Angular
+              {{'about.plans.first_project.frontend' | transloco}}
             </div>
           </div>
         </div>
       </div>
-      <p class="m-1">Realización de un curso de Udemy sobre Ionic.</p>
-      <p class="m-1">Realización de un curso de Udemy sobre .NET.</p>
-      <p class="m-1">Realización de un proyecto.</p>
+      <p class="m-1">
+        {{'about.plans.second_project.description' | transloco}}</p>
+      <p class="m-1">
+        {{'about.plans.third_project.description' | transloco}}</p>
+      <p class="m-1">
+        {{'about.plans.forth_project.value' | transloco}}</p>
       <div class="row m-3">
         <div class="col">
-          Proyecto como Calidad de Vida de un juego.
+          {{'about.plans.forth_project.description' | transloco}}
           <div class="row p-3">
             <div class="col-3">
-              Backend - NestJS
+              {{'about.plans.forth_project.backend' | transloco}}
             </div>
             <div class="col">
-              Frontend - Flutter
+              {{'about.plans.forth_project.frontend' | transloco}}
             </div>
           </div>
         </div>
@@ -43,8 +46,9 @@
     <div class="col-4 col-sm-4 col-md-3">
       <img src="../assets/Imagen-personal.jpg" alt="imagen personal" class="img-fluid">
       <div class="text-center m-3">
-        <a href="../assets/CV-ampr.pdf" download="CV-angel-manuel-pereira-rodriguez.pdf" class="btn btn-primary">Descarga mi CV</a>
-        <a href="mailto:ampr2003@gmail.com" class="btn btn-primary mt-3">Contáctame</a>
+        <a href="../assets/CV-ampr.pdf" download="CV-angel-manuel-pereira-rodriguez.pdf"
+          class="btn btn-primary">{{'about.cv' | transloco}}</a>
+        <a href="mailto:ampr2003@gmail.com" class="btn btn-primary mt-3">{{'about.contact' | transloco}}</a>
       </div>
     </div>
   </div>

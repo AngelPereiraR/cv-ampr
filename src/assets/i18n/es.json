@@ -1,0 +1,145 @@
+{
+  "about": {
+    "title": "Sobre mí",
+    "name": {
+      "title": "Nombre",
+      "value": "Ángel Manuel Pereira Rodríguez"
+    },
+    "job": {
+      "title": "Titular",
+      "value": "Desarrollador Júnior de Software y Qlik"
+    },
+    "objectives": {
+      "title": "Objetivos",
+      "value": "Estoy interesado en el desarrollo para Android e IOS, especialmente en el backend."
+    },
+    "plans": {
+      "title": "Planes a corto plazo",
+      "first_project": {
+        "value": "Realización de un proyecto.",
+        "description": "Proyecto para un evento de un amigo streamer de Twitch.",
+        "backend": "Backend - NestJS",
+        "frontend": "Frontend - Angular"
+      },
+      "second_project": {
+        "description": "Realización de un curso de Udemy sobre Ionic."
+      },
+      "third_project": {
+        "description": "Realización de un curso de Udemy sobre .NET."
+      },
+      "forth_project": {
+        "value": "Realización de un proyecto.",
+        "description": "Proyecto como Calidad de Vida de un juego.",
+        "backend": "Backend - NestJS",
+        "frontend": "Frontend - Flutter"
+      }
+    },
+    "cv": "Descarga mi CV",
+    "contact": "Contáctame"
+  },
+  "experience": {
+    "header": {
+      "title": "Mi experiencia",
+      "description": "Todos mis trabajos y proyectos personales realizados."
+    },
+    "item": {
+      "timeline": {
+        "section_year": {
+          "year": "2023",
+          "first_section_month": {
+            "month": "Marzo",
+            "first_phrase": "Comienzo las prácticas en Controlnet Web S.L.",
+            "second_phrase": "Recibo formación en Qlik Sense durante dos semanas."
+          },
+          "second_section_month": {
+            "month": "Abril - Junio",
+            "first_phrase": "Ayuda en diversos proyectos de MERCANZA realizados en Qlik Sense para la Comunidad de Madrid."
+          },
+          "third_section_month": {
+            "month": "Junio",
+            "first_phrase": "Terminan las prácticas en Controlnet Web S.L."
+          },
+          "forth_section_month": {
+            "month": "Noviembre",
+            "first_phrase": "Realización de mi página web personal.",
+            "link": "portfolio-angelpereira.netlify.app"
+          }
+        }
+      },
+      "projects": {
+        "first_project": {
+          "description": "Portfolio personal (Este enlace)",
+          "github": "GitHub",
+          "link": "Enlace"
+        }
+      }
+    }
+  },
+  "knowledge": {
+    "header": {
+      "title": "Mis conocimientos",
+      "description": "Todos los cursos y certificaciones que tengo más las tecnologías que conozco actualmente."
+    },
+    "item": {
+      "courses_and_certificates": {
+        "title": "Cursos y Certificaciones en orden cronológico",
+        "courses": {
+          "title": "Cursos",
+          "first_course": {
+            "title": "Título Grado Superior de Desarrollo de Aplicaciones Multiplataforma",
+            "school": "Centro Concertado de Enseñanza San Ignacio",
+            "year": "2021-2023"
+          },
+          "second_course": {
+            "title": "Título Bachillerato de Ciencias Tecnológico",
+            "school": "Centro Concertado de Enseñanza San Ignacio",
+            "year": "2019-2021"
+          },
+          "third_course": {
+            "title": "Educación Secundaria",
+            "school": "Centro Privado de Enseñanza Argantonio",
+            "year": "2015-2019"
+          }
+        },
+        "certificates": {
+          "title": "Certificados",
+          "first_certificate": {
+            "title": "Angular: De cero a experto - Edición 2023",
+            "institution": "Udemy",
+            "year": "2023"
+          },
+          "second_certificate": {
+            "title": "JavaScript Moderno: Guía para dominar el lenguaje",
+            "institution": "Udemy",
+            "year": "2023"
+          },
+          "third_certificate": {
+            "title": "Legacy - Flutter: Tu guía completa para IOS y Android",
+            "institution": "Udemy",
+            "year": "2022-2023"
+          },
+          "forth_certificate": {
+            "title": "Inglés - Nivel B2",
+            "institution": "Cambridge",
+            "year": "2019"
+          },
+          "fifth_certificate": {
+            "title": "Inglés - Nivel B1",
+            "institution": "Cambridge",
+            "year": "2018"
+          }
+        }
+      },
+      "tecnologies": "Tecnologías"
+    }
+  },
+  "navbar": {
+    "name": "Ángel Manuel Pereira Rodríguez",
+    "title": "Desarrollador Júnior de Software y Qlik",
+    "buttons": {
+      "about": "Sobre mí",
+      "experience": "Experiencia",
+      "knowledge": "Conocimientos"
+    }
+  }
+}

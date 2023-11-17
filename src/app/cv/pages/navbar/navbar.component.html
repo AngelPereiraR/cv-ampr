@@ -4,18 +4,36 @@
     <div class="container-fluid">
       <div class="row row-cols-2">
         <div class="col text-start">
-          <h2>Ángel Manuel Pereira Rodríguez</h2>
+          <h2>
+            {{'navbar.name' | transloco}}</h2>
         </div>
         <div class="col text-center">
-          <h2>Desarrollador Júnior de Software y Qlik</h2>
+          <h2>
+            {{'navbar.title' | transloco}}</h2>
         </div>
       </div>
 
-      <div class="text-center">
-        <button *ngFor="let item of menuItems" class="btn btn-success" [routerLink]="[item.route]"
-          routerLinkActive="active">
-          {{item.name}}
-        </button>
+      <div class="row">
+        <div class="col-9 d-flex justify-content-center align-items-center">
+          <a class="list-group-item m-3 hover" [routerLink]="[menuItems[0].route]"
+            routerLinkActive="active">
+            {{'navbar.buttons.about' | transloco}}
+          </a>
+          <a class="list-group-item m-3 hover" [routerLink]="[menuItems[1].route]"
+            routerLinkActive="active">
+            {{'navbar.buttons.experience' | transloco}}
+          </a>
+          <a class="list-group-item m-3 hover" [routerLink]="[menuItems[2].route]"
+            routerLinkActive="active">
+            {{'navbar.buttons.knowledge' | transloco}}
+          </a>
+        </div>
+        <div class="col-3 d-flex justify-content-center align-items-center">
+          <li class="list-group-item m-3" *ngFor="let language of languagesList; index as i"
+            (click)="changeLanguage(language.code)">
+            <img [src]="language.imgUrl" [alt]="language.name" />
+          </li>
+        </div>
       </div>
     </div>
   </div>

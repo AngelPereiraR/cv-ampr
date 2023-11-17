@@ -26,6 +26,7 @@ img {
 }
 
 @media (max-width: 520px) {
+
   /* Estilos para pantallas pequeñas (móviles) */
   .content {
     padding-top: 191px;
@@ -34,6 +35,7 @@ img {
 }
 
 @media (min-width: 521px) and (max-width: 862px) {
+
   /* Estilos para tabletas */
   .content {
     padding-top: 159px;
@@ -42,6 +44,7 @@ img {
 }
 
 @media (min-width: 863px) {
+
   /* Estilos para pantallas grandes */
   .content {
     padding-top: 127px;
@@ -58,4 +61,14 @@ h2 {
   margin-top: 15px;
   margin-left: 40px;
   text-align: center;
+}
+
+.hover {
+  transition: text-decoration .3s;
+  transition: font-weight .3s;
+}
+
+.hover:hover {
+  font-weight: bold;
+  text-decoration: underline;
 }

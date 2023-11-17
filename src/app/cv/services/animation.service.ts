@@ -8,8 +8,8 @@ export class AnimationService {
   static getSlideInAnimation() {
     return trigger('slideIn', [
       transition(':enter', [
-        style({ transform: 'translateX(100%)' }),
-        animate('500ms ease-in', style({ transform: 'translateX(0)' })),
+        style({ transform: 'translateY(-100%)' }),
+        animate('500ms ease-in', style({ transform: 'translateY(0)' })),
       ]),
     ]);
   }

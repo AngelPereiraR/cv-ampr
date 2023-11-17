@@ -6,7 +6,7 @@ import { NavbarComponent } from './pages/navbar/navbar.component';
 import { MaterialModule } from '../material/material.module';
 import { CvRoutingModule } from './cv-routing.module';
 import { ExperienceComponent } from './pages/experience/experience.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TranslocoRootModule } from '../transloco-root.module';
 
 
 
@@ -15,12 +15,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AboutComponent,
     KnowledgeComponent,
     NavbarComponent,
-    ExperienceComponent
+    ExperienceComponent,
   ],
   imports: [
     CommonModule,
     MaterialModule,
     CvRoutingModule,
+    TranslocoRootModule,
   ]
 })
 export class CvModule { }

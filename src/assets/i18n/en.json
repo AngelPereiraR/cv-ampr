@@ -1,0 +1,145 @@
+{
+  "about": {
+    "title": "About me",
+    "name": {
+      "title": "Name",
+      "value": "Ángel Manuel Pereira Rodríguez"
+    },
+    "job": {
+      "title": "Title",
+      "value": "Qlik and Software Junior Developer"
+    },
+    "objectives": {
+      "title": "Objectives",
+      "value": "I am interested in development for Android and IOS, especially the backend."
+    },
+    "plans": {
+      "title": "Short term plans",
+      "first_project": {
+        "value": "Carrying out a project.",
+        "description": "Project for an event for a Twitch streamer friend.",
+        "backend": "Backend - NestJS",
+        "frontend": "Frontend - Angular"
+      },
+      "second_project": {
+        "description": "Taking a Udemy course on Ionic."
+      },
+      "third_project": {
+        "description": "Taking a Udemy course on .NET."
+      },
+      "forth_project": {
+        "value": "Carrying out a project.",
+        "description": "Project as Quality of Life of a game.",
+        "backend": "Backend - NestJS",
+        "frontend": "Frontend - Flutter"
+      }
+    },
+    "cv": "Download my CV",
+    "contact": "Contact me"
+  },
+  "experience": {
+    "header": {
+      "title": "My Experience",
+      "description": "All my work and personal projects completed."
+    },
+    "item": {
+      "timeline": {
+        "section_year": {
+          "year": "2023",
+          "first_section_month": {
+            "month": "March",
+            "first_phrase": "I begin my internship at Controlnet Web S.L.",
+            "second_phrase": "I receive training in Qlik Sense for two weeks."
+          },
+          "second_section_month": {
+            "month": "April - June",
+            "first_phrase": "Help in various MERCANZA projects carried out in Qlik Sense for the Community of Madrid."
+          },
+          "third_section_month": {
+            "month": "June",
+            "first_phrase": "The internship at Controlnet Web S.L. ends."
+          },
+          "forth_section_month": {
+            "month": "November",
+            "first_phrase": "Creation of my personal website.",
+            "link": "portfolio-angelpereira.netlify.app"
+          }
+        }
+      },
+      "projects": {
+        "first_project": {
+          "description": "Personal portfolio (This link)",
+          "github": "GitHub",
+          "link": "Link"
+        }
+      }
+    }
+  },
+  "knowledge": {
+    "header": {
+      "title": "My Knowledge",
+      "description": "All the courses and certifications I have plus the technologies I currently know."
+    },
+    "item": {
+      "courses_and_certificates": {
+        "title": "Courses and Certifications in chronological order",
+        "courses": {
+          "title": "Courses",
+          "first_course": {
+            "title": "Higher Degree in Multiplatform Application Development",
+            "school": "San Ignacio Concerted Teaching Center",
+            "year": "2021-2023"
+          },
+          "second_course": {
+            "title": "Bachelor's Degree in Technological Sciences",
+            "school": "San Ignacio Concerted Teaching Center",
+            "year": "2019-2021"
+          },
+          "third_course": {
+            "title": "Secondary Education",
+            "school": "Argantonio Private Teaching Center",
+            "year": "2015-2019"
+          }
+        },
+        "certificates": {
+          "title": "Certificates",
+          "first_certificate": {
+            "title": "Angular: De cero a experto - Edición 2023",
+            "institution": "Udemy",
+            "year": "2023"
+          },
+          "second_certificate": {
+            "title": "JavaScript Moderno: Guía para dominar el lenguaje",
+            "institution": "Udemy",
+            "year": "2023"
+          },
+          "third_certificate": {
+            "title": "Legacy - Flutter: Tu guía completa para IOS y Android",
+            "institution": "Udemy",
+            "year": "2022-2023"
+          },
+          "forth_certificate": {
+            "title": "English - Level B2",
+            "institution": "Cambridge",
+            "year": "2019"
+          },
+          "fifth_certificate": {
+            "title": "English - Level B1",
+            "institution": "Cambridge",
+            "year": "2018"
+          }
+        }
+      },
+      "tecnologies": "Tecnologies"
+    }
+  },
+  "navbar": {
+    "name": "Ángel Manuel Pereira Rodríguez",
+    "title": "Qlik and Software Junior Developer",
+    "buttons": {
+      "about": "About me",
+      "experience": "Experience",
+      "knowledge": "Knowledge"
+    }
+  }
+}
