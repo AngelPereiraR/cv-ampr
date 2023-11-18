@@ -4,15 +4,16 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-9 d-flex justify-content-start align-items-center">
+          <img src="./assets/logo.png" alt="Logo">
           <a class="list-group-item mx-2 hover text-center" [routerLink]="[menuItems[0].route]"
             routerLinkActive="active">
             {{'navbar.buttons.about' | transloco}}
           </a>
-          <a class="list-group-item mx-2 hover text-center" [routerLink]="[menuItems[1].route]"
+          <a class="list-group-item mx-1 hover text-center" [routerLink]="[menuItems[1].route]"
             routerLinkActive="active">
             {{'navbar.buttons.experience' | transloco}}
           </a>
-          <a class="list-group-item mx-2 hover text-center" [routerLink]="[menuItems[2].route]"
+          <a class="list-group-item mx-1 hover text-center" [routerLink]="[menuItems[2].route]"
             routerLinkActive="active">
             {{'navbar.buttons.knowledge' | transloco}}
           </a>
@@ -33,8 +34,8 @@
   </div>
 
   <div class="bottom-navbar">
-    <div class="container text-center">
-      <div class="row d-flex align-items-center">
+    <div class="container">
+      <div class="row">
         <div class="col text-start">
           <a href="https://www.linkedin.com/in/%C3%A1ngel-manuel-pereira-rodr%C3%ADguez-009730253/">
             <img src="../assets/tecnologies/linkedin-icon-2.svg" alt="Linkedin">
