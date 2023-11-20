@@ -22,16 +22,22 @@
         "frontend": "Frontend - Angular"
       },
       "second_project": {
-        "description": "2. Realización de un curso de Udemy sobre Ionic."
-      },
-      "third_project": {
-        "description": "3. Realización de un curso de Udemy sobre .NET."
-      },
-      "forth_project": {
-        "value": "4. Realización de un proyecto.",
+        "value": "2. Realización de un proyecto.",
         "description": "| Proyecto como Calidad de Vida de un juego.",
         "backend": "Backend - NestJS",
         "frontend": "Frontend - Flutter"
+      },
+      "third_project": {
+        "value": "3. Realización de un proyecto.",
+        "description": "| Proyecto para el uso doméstico de gestión de inventario familiar.",
+        "backend": "Backend - NestJS",
+        "frontend": "Frontend - Flutter"
+      },
+      "forth_project": {
+        "description": "4. Realización de un curso de Udemy sobre Ionic."
+      },
+      "fifth_project": {
+        "description": "5. Realización de un curso de Udemy sobre .NET."
       }
     },
     "cv": "Descarga mi CV"
@@ -88,16 +94,6 @@
             "title": "Título Grado Superior de Desarrollo de Aplicaciones Multiplataforma",
             "school": "Centro Concertado de Enseñanza San Ignacio",
             "year": "2021-2023"
-          },
-          "second_course": {
-            "title": "Título Bachillerato de Ciencias Tecnológico",
-            "school": "Centro Concertado de Enseñanza San Ignacio",
-            "year": "2019-2021"
-          },
-          "third_course": {
-            "title": "Educación Secundaria",
-            "school": "Centro Privado de Enseñanza Argantonio",
-            "year": "2015-2019"
           }
         },
         "certificates": {
@@ -121,11 +117,6 @@
             "title": "Inglés - Nivel B2",
             "institution": "Cambridge",
             "year": "2019"
-          },
-          "fifth_certificate": {
-            "title": "Inglés - Nivel B1",
-            "institution": "Cambridge",
-            "year": "2018"
           }
         }
       },
