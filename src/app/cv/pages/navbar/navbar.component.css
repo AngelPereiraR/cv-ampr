@@ -49,3 +49,7 @@ h2 {
 a {
   font-size: 13px;
 }
+
+ul {
+  display: inline;
+}

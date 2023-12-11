@@ -4,7 +4,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-9 d-flex justify-content-start align-items-center">
-          <img src="./assets/logo.png" alt="Logo">
+          <img src="../assets/logo.webp" alt="Logo">
           <a class="list-group-item mx-2 hover text-center" [routerLink]="[menuItems[0].route]"
             routerLinkActive="active">
             {{'navbar.buttons.about' | transloco}}
@@ -18,8 +18,8 @@
             {{'navbar.buttons.knowledge' | transloco}}
           </a>
         </div>
-        <div class="col-3 d-flex justify-content-center align-items-center">
-          <li class="list-group-item m-2 text-center" *ngFor="let language of languagesList; index as i"
+        <div class="col-3 d-flex justify-content-center align-items-center list-group-horizontal">
+          <li class="list-group-item m-2 text-center" *ngFor="let language of languagesList"
             (click)="changeLanguage(language.code)">
             <img [src]="language.imgUrl" [alt]="language.name" />
           </li>
@@ -42,7 +42,7 @@
           </a>
         </div>
         <div class="col text-center">
-          <p>© Copyright 2023</p>
+          <p>© 2023 Ángel Pereira</p>
         </div>
         <div class="col text-end">
           <a href="https://github.com/AngelPereiraR">
