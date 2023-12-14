@@ -6,7 +6,7 @@
       "value": "Ángel Manuel Pereira Rodríguez"
     },
     "job": {
-      "title": "Título",
+      "title": "Especialización",
       "value": "Desarrollador Júnior de Software y Qlik"
     },
     "objectives": {
@@ -73,9 +73,13 @@
       },
       "projects": {
         "first_project": {
-          "description": "Portfolio personal (Este enlace)",
+          "description": "Portfolio personal (Este proyecto)",
           "github": "GitHub",
           "link": "Enlace"
+        },
+        "third_colaborative_project": {
+          "backend": "Backend - API de Laravel externa (En mantenimiento)",
+          "note": "Actualmente fuera de servicio"
         }
       }
     }

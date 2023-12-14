@@ -117,7 +117,7 @@ div.item {
       width: 2px;
       position: absolute;
       top: .5rem;
-      bottom: 0rem;
+      bottom: 77%;
       left: 60px;
       z-index: 1;
       background: rgb(150, 0, 0);
@@ -242,6 +242,10 @@ mat-card {
   color: black;
 }
 
+div.card h1 {
+  font-weight: bold;
+}
+
 mat-card {
   background: rgba(5, 94, 135, 0.2);
 }
@@ -254,4 +258,8 @@ img {
 
 img.card:hover {
   transform: scale(1.15);
+}
+
+.vertical {
+  max-width: 25%;
 }
