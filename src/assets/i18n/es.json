@@ -7,7 +7,7 @@
     },
     "job": {
       "title": "Especialización",
-      "value": "Desarrollador Júnior de Software y Qlik"
+      "value": "Desarrollador Júnior Full Stack y de Qlik"
     },
     "objectives": {
       "title": "Objetivos",
@@ -72,6 +72,8 @@
         }
       },
       "projects": {
+        "internet": "Proyectos alojados en Internet",
+        "colaborative": "Proyectos locales colaborativos",
         "first_project": {
           "description": "Portfolio personal (Este proyecto)",
           "github": "GitHub",

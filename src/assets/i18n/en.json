@@ -7,7 +7,7 @@
     },
     "job": {
       "title": "Specialization",
-      "value": "Qlik and Software Junior Developer"
+      "value": "Junior Fullstack and Qlik Developer"
     },
     "objectives": {
       "title": "Objectives",
@@ -72,6 +72,8 @@
         }
       },
       "projects": {
+        "internet": "Projects hosted on the Internet",
+        "colaborative": "Collaborative local projects",
         "first_project": {
           "description": "Personal portfolio (This project)",
           "github": "GitHub",
