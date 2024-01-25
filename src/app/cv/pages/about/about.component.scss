@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:200,400,500);
+
 div.about {
   img.profile {
     transition: transform 0.5s;
@@ -128,7 +130,6 @@ div.knowledge {
 }
 
 div.experience-projects {
-  @import url(https://fonts.googleapis.com/css?family=Fira+Sans:200,400,500);
 
   @mixin border-radius($radius) {
     -webkit-border-radius: $radius;
