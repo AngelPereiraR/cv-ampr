@@ -8,7 +8,12 @@ interface MenuItem {
 
 @Component({
   templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss'],
+  styleUrls: [
+    './about.component.scss',
+    './experience.component.scss',
+    './knowledge.component.scss',
+    './projects.component.scss',
+  ],
   animations: [AnimationService.getSlideInAnimation()],
 })
 export class AboutComponent {
