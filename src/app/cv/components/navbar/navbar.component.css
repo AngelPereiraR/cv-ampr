@@ -1,13 +1,8 @@
-button {
-  margin: 13px;
-}
-
 img {
   width: 30px;
 }
 
 .bottom-navbar {
-  position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 1000;
@@ -37,8 +32,8 @@ h2 {
 }
 
 .hover {
-  transition: text-decoration .3s;
-  transition: font-weight .3s;
+  transition: text-decoration 0.3s;
+  transition: font-weight 0.3s;
 }
 
 .hover:hover {

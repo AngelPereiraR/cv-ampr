@@ -3,17 +3,18 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'cv',
-    loadChildren: () => import('./cv/cv.module').then(m => m.CvModule)
+    path: '',
+    loadChildren: () => import('./cv/cv.module').then((m) => m.CvModule),
+    pathMatch: 'prefix',
   },
   {
     path: '**',
-    redirectTo: 'cv'
+    redirectTo: 'cv',
   },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {useHash: true})],
-  exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

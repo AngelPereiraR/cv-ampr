@@ -1,77 +1,799 @@
-<div class="container">
-  <div [@slideIn] class="row m-4 content">
-    <div class="col-8">
-      <h1><b>{{'about.title' | transloco}}</b></h1>
-      <h2><b>{{'about.name.title' | transloco}}</b></h2>
-      <p class="pb-4">{{'about.name.value' | transloco}}</p>
-      <h2><b>{{'about.job.title' | transloco}}</b></h2>
-      <p class="pb-4">{{'about.job.value' | transloco}}</p>
-      <h2><b>{{'about.objectives.title' | transloco}}</b></h2>
-      <p class="pb-4">{{'about.objectives.value' | transloco}}</p>
-      <h2><b>{{'about.plans.title' | transloco}}</b></h2>
-      <p class="m-1">{{'about.plans.first_project.value' | transloco}}</p>
-      <div class="row mt-3 mx-1">
-        <div class="col">
-          {{'about.plans.first_project.description' | transloco}}
-          <div class="row p-3 text-center">
-            <div class="col-3 mx-3">
-              {{'about.plans.first_project.backend' | transloco}}
-            </div>
-            <div class="col-3 mx-3">
-              {{'about.plans.first_project.frontend' | transloco}}
-            </div>
-          </div>
-        </div>
-      </div><p class="m-1">
-        {{'about.plans.second_project.value' | transloco}}</p>
-      <div class="row mt-3 mx-1">
-        <div class="col">
-          {{'about.plans.second_project.description' | transloco}}
-          <div class="row p-3 text-center">
-            <div class="col-3 mx-3">
-              {{'about.plans.second_project.backend' | transloco}}
-            </div>
-            <div class="col-3 mx-3">
-              {{'about.plans.second_project.frontend' | transloco}}
+<div class="container about" id="top">
+  <div class="row m-5 content">
+    <div class="col-8" id="about">
+      <h1>
+        <b>{{ "about.title" | transloco }}</b>
+      </h1>
+      <h2>
+        <b>{{ "about.name.title" | transloco }}</b>
+      </h2>
+      <p class="pb-4">{{ "about.name.value" | transloco }}</p>
+      <h2>
+        <b>{{ "about.job.title" | transloco }}</b>
+      </h2>
+      <p class="pb-4">{{ "about.job.value" | transloco }}</p>
+      <h2>
+        <b>{{ "about.objectives.title" | transloco }}</b>
+      </h2>
+      <p class="pb-4">{{ "about.objectives.value" | transloco }}</p>
+      <h2>
+        <b>{{ "about.plans.title" | transloco }}</b>
+      </h2>
+      <ol>
+        <div>
+          <li>{{ "about.plans.first_project.value" | transloco }}</li>
+          <div class="row mt-3 mx-1">
+            <div class="col">
+              {{ "about.plans.first_project.description" | transloco }}
+              <div class="row p-3 text-center">
+                <div class="col-3 mx-3">Backend: NestJS</div>
+                <div class="col-3 mx-3">Frontend: Angular</div>
+              </div>
             </div>
           </div>
         </div>
-      </div><p class="m-1">
-        {{'about.plans.third_project.value' | transloco}}</p>
-      <div class="row mt-3 mx-1">
-        <div class="col">
-          {{'about.plans.third_project.description' | transloco}}
-          <div class="row p-3 text-center">
-            <div class="col-3 mx-3">
-              {{'about.plans.third_project.backend' | transloco}}
-            </div>
-            <div class="col-3 mx-3">
-              {{'about.plans.third_project.frontend' | transloco}}
+        <div>
+          <li>{{ "about.plans.first_course.value" | transloco }}</li>
+        </div>
+        <div>
+          <li>{{ "about.plans.second_project.value" | transloco }}</li>
+          <div class="row mt-3 mx-1">
+            <div class="col">
+              {{ "about.plans.second_project.description" | transloco }}
+              <div class="row p-3 text-center">
+                <div class="col-3 mx-3">Backend: Java (Spring)</div>
+                <div class="col-3 mx-3">Frontend: Flutter</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <p class="m-1">
-        {{'about.plans.forth_project.description' | transloco}}</p>
-      <p class="m-1">
-        {{'about.plans.fifth_project.description' | transloco}}</p>
-
+        <div>
+          <li>{{ "about.plans.third_project.value" | transloco }}</li>
+          <div class="row mt-3 mx-1">
+            <div class="col">
+              {{ "about.plans.third_project.description" | transloco }}
+              <div class="row p-3 text-center">
+                <div class="col-3 mx-3">Backend: NestJS</div>
+                <div class="col-3 mx-3">Frontend: Flutter</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <li>{{ "about.plans.forth_project.value" | transloco }}</li>
+          <div class="row mt-3 mx-1">
+            <div class="col">
+              {{ "about.plans.forth_project.description" | transloco }}
+              <div class="row p-3 text-center">
+                <div class="col-3 mx-3">Backend: Java (Spring)</div>
+                <div class="col-3 mx-3">Frontend: Angular</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <li>{{ "about.plans.fifth_project.value" | transloco }}</li>
+          <div class="row mt-3 mx-1">
+            <div class="col">
+              {{ "about.plans.fifth_project.description" | transloco }}
+              <div class="row p-3 text-center">
+                <div class="col-3 mx-3">
+                  {{ "about.plans.fifth_project.backend" | transloco }}
+                </div>
+                <div class="col-3 mx-3">Frontend: Angular</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <li>{{ "about.plans.second_course.value" | transloco }}</li>
+        </div>
+        <div>
+          <li>{{ "about.plans.third_course.value" | transloco }}</li>
+        </div>
+      </ol>
     </div>
     <div class="col-4">
-      <img src="../assets/Imagen-personal.webp" alt="imagen personal" class="img-fluid profile">
+      <img
+        src="../assets/Imagen-personal.webp"
+        alt="imagen personal"
+        class="img-fluid profile"
+      />
       <div class="row mt-3 text-center">
         <div class="col">
-          <a href="../assets/CV-ampr.pdf" download="CV-pereira-rodriguez-angel-manuel.pdf"
-            class="btn btn-primary mx-2">{{'about.cv' | transloco}}</a>
+          <a
+            href="../assets/CV-ampr.pdf"
+            download="CV-pereira-rodriguez-angel-manuel.pdf"
+            class="btn btn-primary mx-2"
+            >{{ "about.cv" | transloco }}</a
+          >
           <div class="spacer"></div>
         </div>
         <div class="col">
-          <a href="mailto:angelpereira.info@gmail.com" class="btn btn-primary mx-2">
-            <img class="email" src="../assets/Email.svg" alt="Email">
+          <a
+            href="mailto:angelpereira.info@gmail.com"
+            class="btn btn-primary mx-2"
+          >
+            <img class="email" src="../assets/Email.svg" alt="Email" />
           </a>
         </div>
       </div>
     </div>
   </div>
+</div>
+<div class="experience-projects">
+  <div class="header" id="experience">
+    <h1 class="mt-5">{{ "experience.header.title" | transloco }}</h1>
+    <h2>{{ "experience.header.description" | transloco }}</h2>
+  </div>
+  <div class="item">
+    <div class="row">
+      <div class="col-12">
+        <div id="timeline">
+          <div>
+            <section class="year">
+              <h3>
+                {{
+                  "experience.item.timeline.first_section_year.year" | transloco
+                }}
+              </h3>
+              <section>
+                <h4>
+                  {{
+                    "experience.item.timeline.first_section_year.first_section_month.month"
+                      | transloco
+                  }}
+                </h4>
+                <ul>
+                  <li>
+                    {{
+                      "experience.item.timeline.first_section_year.first_section_month.first_phrase"
+                        | transloco
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "experience.item.timeline.first_section_year.first_section_month.second_phrase"
+                        | transloco
+                    }}
+                  </li>
+                </ul>
+              </section>
+            </section>
+            <section class="year">
+              <h3>
+                {{
+                  "experience.item.timeline.second_section_year.year"
+                    | transloco
+                }}
+              </h3>
+              <section>
+                <h4>
+                  {{
+                    "experience.item.timeline.second_section_year.first_section_month.month"
+                      | transloco
+                  }}
+                </h4>
+                <ul>
+                  <li>
+                    {{
+                      "experience.item.timeline.second_section_year.first_section_month.first_phrase"
+                        | transloco
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "experience.item.timeline.second_section_year.first_section_month.second_phrase"
+                        | transloco
+                    }}
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <h4>
+                  {{
+                    "experience.item.timeline.second_section_year.second_section_month.month"
+                      | transloco
+                  }}
+                </h4>
+                <ul>
+                  <li>
+                    {{
+                      "experience.item.timeline.second_section_year.second_section_month.first_phrase"
+                        | transloco
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "experience.item.timeline.second_section_year.second_section_month.second_phrase"
+                        | transloco
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "experience.item.timeline.second_section_year.second_section_month.third_phrase"
+                        | transloco
+                    }}
+                  </li>
+                </ul>
+              </section>
+            </section>
+            <section class="year">
+              <h3>
+                {{
+                  "experience.item.timeline.third_section_year.year" | transloco
+                }}
+              </h3>
+              <section>
+                <h4>
+                  {{
+                    "experience.item.timeline.third_section_year.first_section_month.month"
+                      | transloco
+                  }}
+                </h4>
+                <ul>
+                  <li>
+                    {{
+                      "experience.item.timeline.third_section_year.first_section_month.first_phrase"
+                        | transloco
+                    }}
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <h4>
+                  {{
+                    "experience.item.timeline.third_section_year.second_section_month.month"
+                      | transloco
+                  }}
+                </h4>
+                <ul>
+                  <li>
+                    {{
+                      "experience.item.timeline.third_section_year.second_section_month.first_phrase"
+                        | transloco
+                    }}
+                  </li>
+                  <img src="../assets/Controlnet.webp" alt="controlnet" />
+                  <li>
+                    {{
+                      "experience.item.timeline.third_section_year.second_section_month.second_phrase"
+                        | transloco
+                    }}
+                  </li>
+                  <img
+                    src="../assets/tecnologies/qlik-1.svg"
+                    alt="qliksense-2"
+                  />
+                </ul>
+              </section>
+              <section>
+                <h4>
+                  {{
+                    "experience.item.timeline.third_section_year.third_section_month.month"
+                      | transloco
+                  }}
+                </h4>
+                <ul>
+                  <li>
+                    {{
+                      "experience.item.timeline.third_section_year.third_section_month.first_phrase"
+                        | transloco
+                    }}
+                  </li>
+                  <img src="../assets/Mercanza.webp" alt="MERCANZA" />
+                  <li>
+                    {{
+                      "experience.item.timeline.third_section_year.third_section_month.second_phrase"
+                        | transloco
+                    }}
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <h4>
+                  {{
+                    "experience.item.timeline.third_section_year.forth_section_month.month"
+                      | transloco
+                  }}
+                </h4>
+                <ul>
+                  <li>
+                    {{
+                      "experience.item.timeline.third_section_year.forth_section_month.first_phrase"
+                        | transloco
+                    }}
+                  </li>
+                  <li>
+                    {{
+                      "experience.item.timeline.third_section_year.forth_section_month.second_phrase"
+                        | transloco
+                    }}
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <h4>
+                  {{
+                    "experience.item.timeline.third_section_year.fifth_section_month.month"
+                      | transloco
+                  }}
+                </h4>
+                <ul>
+                  <li>
+                    {{
+                      "experience.item.timeline.third_section_year.fifth_section_month.first_phrase"
+                        | transloco
+                    }}
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <h4>
+                  {{
+                    "experience.item.timeline.third_section_year.sixth_section_month.month"
+                      | transloco
+                  }}
+                </h4>
+                <ul>
+                  <li>
+                    {{
+                      "experience.item.timeline.third_section_year.sixth_section_month.first_phrase"
+                        | transloco
+                    }}
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <h4>
+                  {{
+                    "experience.item.timeline.third_section_year.seventh_section_month.month"
+                      | transloco
+                  }}
+                </h4>
+                <ul>
+                  <li>
+                    {{
+                      "experience.item.timeline.third_section_year.seventh_section_month.first_phrase"
+                        | transloco
+                    }}
+                    <hr />
+                    <a href="https://portfolio-angelpereira.netlify.app">{{
+                      "experience.item.timeline.third_section_year.seventh_section_month.link"
+                        | transloco
+                    }}</a>
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <h4>
+                  {{
+                    "experience.item.timeline.third_section_year.eighth_section_month.month"
+                      | transloco
+                  }}
+                </h4>
+                <ul>
+                  <li>
+                    {{
+                      "experience.item.timeline.third_section_year.eighth_section_month.first_phrase"
+                        | transloco
+                    }}
+                  </li>
+                </ul>
+              </section>
+            </section>
+            <section class="year">
+              <h3>
+                {{
+                  "experience.item.timeline.forth_section_year.year" | transloco
+                }}
+              </h3>
+              <section>
+                <h4>
+                  {{
+                    "experience.item.timeline.forth_section_year.first_section_month.month"
+                      | transloco
+                  }}
+                </h4>
+                <ul>
+                  <li>
+                    {{
+                      "experience.item.timeline.forth_section_year.first_section_month.first_phrase"
+                        | transloco
+                    }}
+                    <hr />
+                    <a href="https://frutyfest.netlify.app">{{
+                      "experience.item.timeline.forth_section_year.first_section_month.link"
+                        | transloco
+                    }}</a>
+                  </li>
+                  <li>
+                    {{
+                      "experience.item.timeline.forth_section_year.first_section_month.second_phrase"
+                        | transloco
+                    }}
+                  </li>
+                </ul>
+              </section>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 text-center" id="projects">
+        <div class="m-5 header row">
+          <h1>
+            {{ "experience.item.projects.internet.title" | transloco }}
+          </h1>
+          <h2>
+            {{ "experience.item.projects.internet.description" | transloco }}
+          </h2>
+        </div>
+        <div class="col">
+          <mat-card class="m-5 mx-auto col-12 col-md-6">
+            <mat-card-content>
+              <div class="card-content">
+                {{
+                  "experience.item.projects.internet.first_project.description"
+                    | transloco
+                }}
+              </div>
+              <p>
+                {{
+                  "experience.item.projects.internet.first_project.first_phrase"
+                    | transloco
+                }}
+              </p>
+              <p>
+                {{
+                  "experience.item.projects.internet.first_project.second_phrase"
+                    | transloco
+                }}
+              </p>
+              <p>
+                {{
+                  "experience.item.projects.internet.first_project.third_phrase"
+                    | transloco
+                }}
+              </p>
+              <p>
+                {{
+                  "experience.item.projects.internet.first_project.forth_phrase"
+                    | transloco
+                }}
+              </p>
+            </mat-card-content>
+            <img
+              src="../assets/frutyfest.webp"
+              alt="FrutyFest"
+              class="img-thumbnail card rounded mx-auto d-block mt-3"
+            />
+            <div class="row">
+              <div class="col mt-4 card-content">
+                <h4>Frontend: Angular</h4>
+                <h4>Backend: NestJS</h4>
+              </div>
+            </div>
+            <mat-card-footer>
+              <div class="card-footer">
+                <a
+                  href="https://github.com/AngelPereiraR/frutyfest-web"
+                  class="m-5"
+                  >GitHub</a
+                >
+                <a href="https://frutyfest.netlify.app" class="m-5">Link</a>
+              </div>
+            </mat-card-footer>
+          </mat-card>
+        </div>
+        <div class="m-5 mx-auto header row">
+          <h1>
+            {{ "experience.item.projects.collaborative.title" | transloco }}
+          </h1>
+          <h2>
+            {{
+              "experience.item.projects.collaborative.description" | transloco
+            }}
+          </h2>
+        </div>
+        <div class="row">
+          <mat-card class="m-5 mx-auto col-12 col-md-6">
+            <mat-card-content>
+              <div class="card-content">SalesIn</div>
+              <p>
+                {{
+                  "experience.item.projects.collaborative.first_project.first_phrase"
+                    | transloco
+                }}
+              </p>
+              <p>
+                {{
+                  "experience.item.projects.collaborative.first_project.second_phrase"
+                    | transloco
+                }}
+              </p>
+              <p>
+                {{
+                  "experience.item.projects.collaborative.first_project.third_phrase"
+                    | transloco
+                }}
+              </p>
+              <p>
+                {{
+                  "experience.item.projects.collaborative.first_project.forth_phrase"
+                    | transloco
+                }}
+              </p>
+              <p>
+                {{
+                  "experience.item.projects.collaborative.first_project.fifth_phrase"
+                    | transloco
+                }}
+              </p>
+            </mat-card-content>
+            <img
+              src="../assets/salesin.webp"
+              alt="SalesIn"
+              class="img-thumbnail card rounded mx-auto d-block mt-3"
+            />
+            <div class="row">
+              <div class="col mt-4 card-content">
+                <h4>Frontend: Laravel</h4>
+                <h4>Backend: Laravel</h4>
+              </div>
+            </div>
+          </mat-card>
+          <mat-card class="m-5 mx-auto col-12 col-md-6">
+            <mat-card-content>
+              <div class="card-content">GestionCursos</div>
+              <p>
+                {{
+                  "experience.item.projects.collaborative.second_project.first_phrase"
+                    | transloco
+                }}
+              </p>
+              <p>
+                {{
+                  "experience.item.projects.collaborative.second_project.second_phrase"
+                    | transloco
+                }}
+              </p>
+              <p>
+                {{
+                  "experience.item.projects.collaborative.second_project.third_phrase"
+                    | transloco
+                }}
+              </p>
+            </mat-card-content>
+            <img
+              src="../assets/gestioncursos.webp"
+              alt="GestionCursos"
+              class="img-thumbnail card rounded mx-auto d-block mt-3"
+            />
+            <div class="row">
+              <div class="col mt-4 card-content">
+                <h4>Frontend: Java</h4>
+                <h4>Backend: Java</h4>
+              </div>
+            </div>
+            <mat-card-footer>
+              <div class="card-footer">
+                <a
+                  href="https://github.com/AngelPereiraR/gestioncursos"
+                  class="m-5"
+                  >GitHub</a
+                >
+              </div>
+            </mat-card-footer>
+          </mat-card>
+          <mat-card class="m-5 mx-auto col-12 col-md-6">
+            <mat-card-content>
+              <div class="card-content">Almagest</div>
+              <p>
+                {{
+                  "experience.item.projects.collaborative.third_project.first_phrase"
+                    | transloco
+                }}
+              </p>
+              <p>
+                {{
+                  "experience.item.projects.collaborative.third_project.second_phrase"
+                    | transloco
+                }}
+              </p>
+            </mat-card-content>
+            <img
+              src="../assets/almagest.webp"
+              alt="Almagest"
+              class="img-thumbnail card rounded mx-auto d-block vertical mt-3"
+            />
+            <div class="row">
+              <div class="col mt-4 card-content">
+                <div class="row">
+                  <h4>Frontend: Flutter</h4>
+                  <h4>
+                    {{
+                      "experience.item.projects.collaborative.third_project.backend"
+                        | transloco
+                    }}
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <p>
+                {{
+                  "experience.item.projects.collaborative.third_project.note"
+                    | transloco
+                }}
+              </p>
+            </div>
+            <mat-card-footer>
+              <div class="card-footer">
+                <a href="https://github.com/AngelPereiraR/almagest">GitHub</a>
+              </div>
+            </mat-card-footer>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="knowledge">
+  <div>
+    <div class="header" id="knowledge">
+      <h1 class="mt-5">
+        <b>{{ "knowledge.header.title" | transloco }}</b>
+      </h1>
+      <h2>{{ "knowledge.header.description" | transloco }}</h2>
+    </div>
+    <div class="item">
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <h1>
+            {{ "knowledge.item.courses_and_certificates.title" | transloco }}
+          </h1>
+          <div class="row d-flex justify-content-center">
+            <div class="col">
+              <h2>
+                {{
+                  "knowledge.item.courses_and_certificates.courses.title"
+                    | transloco
+                }}
+              </h2>
+              <div class="course">
+                <h3>
+                  {{
+                    "knowledge.item.courses_and_certificates.courses.first_course.title"
+                      | transloco
+                  }}
+                </h3>
+                <h4>
+                  {{
+                    "knowledge.item.courses_and_certificates.courses.first_course.school"
+                      | transloco
+                  }}
+                </h4>
+                <p>
+                  {{
+                    "knowledge.item.courses_and_certificates.courses.first_course.year"
+                      | transloco
+                  }}
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <h2>
+                {{
+                  "knowledge.item.courses_and_certificates.certificates.title"
+                    | transloco
+                }}
+              </h2>
+              <div class="certificate">
+                <h3>
+                  {{
+                    "knowledge.item.courses_and_certificates.certificates.first_certificate.title"
+                      | transloco
+                  }}
+                </h3>
+                <h4>
+                  {{
+                    "knowledge.item.courses_and_certificates.certificates.first_certificate.institution"
+                      | transloco
+                  }}
+                </h4>
+                <p>
+                  {{
+                    "knowledge.item.courses_and_certificates.certificates.first_certificate.year"
+                      | transloco
+                  }}
+                </p>
+              </div>
+              <div class="certificate">
+                <h3>
+                  {{
+                    "knowledge.item.courses_and_certificates.certificates.second_certificate.title"
+                      | transloco
+                  }}
+                </h3>
+                <h4>
+                  {{
+                    "knowledge.item.courses_and_certificates.certificates.second_certificate.institution"
+                      | transloco
+                  }}
+                </h4>
+                <p>
+                  {{
+                    "knowledge.item.courses_and_certificates.certificates.second_certificate.year"
+                      | transloco
+                  }}
+                </p>
+              </div>
+              <div class="certificate">
+                <h3>
+                  {{
+                    "knowledge.item.courses_and_certificates.certificates.third_certificate.title"
+                      | transloco
+                  }}
+                </h3>
+                <h4>
+                  {{
+                    "knowledge.item.courses_and_certificates.certificates.third_certificate.institution"
+                      | transloco
+                  }}
+                </h4>
+                <p>
+                  {{
+                    "knowledge.item.courses_and_certificates.certificates.third_certificate.year"
+                      | transloco
+                  }}
+                </p>
+              </div>
+              <div class="certificate">
+                <h3>
+                  {{
+                    "knowledge.item.courses_and_certificates.certificates.forth_certificate.title"
+                      | transloco
+                  }}
+                </h3>
+                <h4>
+                  {{
+                    "knowledge.item.courses_and_certificates.certificates.forth_certificate.institution"
+                      | transloco
+                  }}
+                </h4>
+                <p>
+                  {{
+                    "knowledge.item.courses_and_certificates.certificates.forth_certificate.year"
+                      | transloco
+                  }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 col-xl-6 text-center">
+          <h1>{{ "knowledge.item.technologies" | transloco }}</h1>
+          <div class="row d-flex justify-content-center align-items-end">
+            <div
+              *ngFor="let item of menuItems"
+              class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-2"
+            >
+              <img [src]="item.route" [alt]="item.name" class="technology" />
+              <p>{{ item.name }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="irArriba" *ngIf="mostrarBoton">
+    <button
+      class="btn btn-primary up"
+      (click)="scrollToSection('top')"
+      title="Volver arriba"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </div>
 </div>

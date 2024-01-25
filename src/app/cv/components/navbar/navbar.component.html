@@ -1,0 +1,76 @@
+<div class="top-navbar">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-1 d-flex justify-content-start align-items-center">
+        <img src="../assets/logo.webp" alt="Logo" />
+      </div>
+      <div
+        class="col-8 col-md-9 col-lg-10 d-flex justify-content-center align-items-center"
+      >
+        <a
+          class="list-group-item mx-1 hover text-center"
+          (click)="scrollToSection('about')"
+        >
+          {{ "navbar.buttons.about" | transloco }}
+        </a>
+        <a
+          class="list-group-item mx-1 hover text-center"
+          (click)="scrollToSection('experience')"
+        >
+          {{ "navbar.buttons.experience" | transloco }}
+        </a>
+        <a
+          class="list-group-item mx-1 hover text-center"
+          (click)="scrollToSection('projects')"
+        >
+          {{ "navbar.buttons.projects" | transloco }}
+        </a>
+        <a
+          class="list-group-item mx-1 hover text-center"
+          (click)="scrollToSection('knowledge')"
+        >
+          {{ "navbar.buttons.knowledge" | transloco }}
+        </a>
+      </div>
+      <div
+        class="col-3 col-md-2 col-lg-1 d-flex justify-content-center align-items-center list-group-horizontal"
+      >
+        <button
+          class="list-group-item m-2 text-center"
+          *ngFor="let language of languagesList"
+          (click)="changeLanguage(language.code)"
+          [title]="language.name"
+        >
+          <img [src]="language.imgUrl" [alt]="language.name" />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content background">
+  <app-common-background></app-common-background>
+  <router-outlet></router-outlet>
+</div>
+
+<div class="bottom-navbar">
+  <div class="container">
+    <div class="row">
+      <div class="col text-start">
+        <a
+          href="https://www.linkedin.com/in/%C3%A1ngel-manuel-pereira-rodr%C3%ADguez-009730253/"
+        >
+          <img src="../assets/tecnologies/linkedin-icon-2.svg" alt="Linkedin" />
+        </a>
+      </div>
+      <div class="col text-center">
+        <p>© 2023 Ángel Pereira</p>
+      </div>
+      <div class="col text-end">
+        <a href="https://github.com/AngelPereiraR">
+          <img src="../assets/tecnologies/github-icon-1.svg" alt="GitHub" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

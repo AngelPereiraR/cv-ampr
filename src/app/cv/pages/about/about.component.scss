@@ -1,0 +1,456 @@
+div.about {
+  img.profile {
+    transition: transform 0.5s;
+    margin-top: 10px;
+    border-radius: 50px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+  }
+
+  img.profile:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+  }
+
+  .spacer {
+    padding-top: 15px;
+  }
+
+  img.email {
+    height: 20px;
+  }
+
+  p,
+  li {
+    color: rgb(73, 73, 73);
+  }
+
+  h2 {
+    color: rgb(150, 0, 0);
+  }
+}
+
+div.knowledge {
+  div.header {
+    height: auto;
+    text-align: center;
+    padding: 0.8rem;
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -5rem;
+      left: 0rem;
+      height: 5.1rem;
+      display: block;
+      width: 100%;
+      z-index: 300;
+    }
+
+    h1 {
+      margin: {
+        top: 0.8rem;
+        bottom: 0.5rem;
+      }
+
+      font: {
+        size: 1.6em;
+      }
+
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+
+      @media (min-width: 62em) {
+        font-size: 1.9em;
+        letter-spacing: 0.2rem;
+      }
+    }
+
+    h2 {
+      font: {
+        size: 1.1em;
+      }
+
+      color: rgb(73, 73, 73);
+      font-weight: bold;
+      max-width: 30rem;
+      margin: auto;
+    }
+  }
+
+  div.item {
+    padding: 0rem 5rem;
+
+    h1,
+    h2 {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    h2 {
+      color: rgb(73, 73, 73);
+    }
+
+    div.course,
+    div.certificate {
+      padding: 1rem 2rem;
+
+      h3,
+      h4,
+      p {
+        font-weight: bold;
+      }
+
+      h4 {
+        color: rgb(73, 73, 73);
+      }
+
+      p {
+        color: rgb(150, 0, 0);
+      }
+    }
+  }
+
+  img.technology {
+    height: auto;
+    max-width: 60%;
+    padding: 15px;
+    transition: transform 0.5s;
+  }
+
+  img:hover {
+    transform: scale(1.15);
+  }
+}
+
+div.experience-projects {
+  @import url(https://fonts.googleapis.com/css?family=Fira+Sans:200,400,500);
+
+  @mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+  }
+
+  * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    font-family: "Fira Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+  }
+
+  a {
+    color: rgb(63, 60, 60);
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      color: #003f7e;
+      font-weight: bold;
+    }
+  }
+
+  div.container {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    max-height: 100%;
+  }
+
+  div.header {
+    height: auto;
+    text-align: center;
+    padding: 0.8rem;
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -5rem;
+      left: 0rem;
+      height: 5.1rem;
+      display: block;
+      width: 100%;
+      z-index: 300;
+    }
+
+    h1 {
+      margin: {
+        top: 0.8rem;
+        bottom: 0.5rem;
+      }
+
+      font: {
+        size: 1.6em;
+      }
+
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      font-weight: bold;
+
+      @media (min-width: 62em) {
+        font-size: 1.9em;
+        letter-spacing: 0.2rem;
+      }
+    }
+
+    h2 {
+      font: {
+        size: 1.1em;
+      }
+
+      color: rgb(73, 73, 73);
+      font-weight: bold;
+      max-width: 30rem;
+      margin: auto;
+    }
+  }
+
+  div.item {
+    display: flex;
+    flex: auto;
+    overflow-y: auto;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+
+  #timeline {
+    position: relative;
+    display: table; //*For Firefox
+
+    margin: {
+      left: auto;
+      right: auto;
+    }
+
+    div {
+      &:after {
+        content: "";
+        width: 2px;
+        position: absolute;
+        top: 0.5rem;
+        bottom: 0;
+        left: 60px;
+        z-index: 1;
+        background: rgb(150, 0, 0);
+        font-weight: bold;
+      }
+    }
+
+    h3 {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0.5rem;
+      color: rgb(150, 0, 0);
+      margin: 0;
+      font-weight: bold;
+
+      @media (min-width: 62em) {
+        font-size: 1.1em;
+      }
+    }
+
+    section.year {
+      position: relative;
+
+      section {
+        position: relative;
+        padding-top: 3em;
+        margin-bottom: 2.5em;
+
+        h4 {
+          position: absolute;
+          top: 0;
+
+          font: {
+            size: 0.9em;
+          }
+
+          line-height: 1.2em;
+          margin: 0;
+          padding: 0 0 0 89px;
+          color: rgb(150, 0, 0);
+          font-weight: bold;
+
+          @media (min-width: 62em) {
+            font-size: 1em;
+          }
+        }
+
+        ul {
+          list-style-type: none;
+          padding: 0 100px 0 100px;
+          margin: -1.35rem 0 1em;
+          font-size: 1em;
+
+          @media (min-width: 62em) {
+            font-size: 1.1em;
+            padding: 0 0 0 81px;
+          }
+
+          &:last-child {
+            margin: {
+              bottom: 0;
+            }
+          }
+
+          &:first-of-type:after {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background: rgb(150, 0, 0);
+            border: 2px solid rgb(150, 0, 0);
+            @include border-radius(50%);
+            position: absolute;
+            left: 56px;
+            top: 3px;
+            font-weight: bold;
+          }
+
+          li {
+            margin-left: 0.5rem;
+
+            &:before {
+              content: "-";
+              margin-left: -0.5rem;
+              padding-right: 0.3rem;
+            }
+
+            &:not(:first-child) {
+              margin-top: 0.5rem;
+            }
+          }
+
+          img {
+            height: 50px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .usd {
+    display: inline;
+  }
+
+  div.card-content {
+    font-size: 20px;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  div.card-footer {
+    margin-top: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  div.card,
+  mat-card {
+    padding: 8px;
+    background: rgba(255, 255, 255, 0);
+    color: black;
+    align-items: center;
+
+    @media (min-width: 80em) {
+      max-width: 30%;
+    }
+
+    @media (min-width: 46em) and (max-width: 80em) {
+      max-width: 45%;
+    }
+
+    @media (max-width: 46em) {
+      max-width: 90%;
+    }
+  }
+
+  div.card h1 {
+    font-weight: bold;
+  }
+
+  mat-card {
+    background: rgba(5, 94, 135, 0.2);
+  }
+
+  img {
+    height: auto;
+    transition: transform 0.5s;
+
+    @media (min-width: 80em) {
+      max-width: 70%;
+    }
+
+    @media (min-width: 46em) and (max-width: 80em) {
+      max-width: 85%;
+    }
+
+    @media (max-width: 46em) {
+      max-width: 100%;
+    }
+  }
+
+  img.card:hover {
+    transform: scale(1.15);
+  }
+
+  .vertical {
+    @media (min-width: 80em) {
+      max-width: 25%;
+    }
+
+    @media (min-width: 46em) and (max-width: 80em) {
+      max-width: 30%;
+    }
+
+    @media (max-width: 46em) {
+      max-width: 40%;
+    }
+  }
+}
+
+.irArriba {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-bottom: 80px;
+
+  @media (min-width: 80em) {
+    margin-left: 95%;
+  }
+
+  @media (min-width: 46em) and (max-width: 80em) {
+    margin-left: 90%;
+  }
+
+  @media (max-width: 46em) {
+    margin-left: 80%;
+  }
+}
+
+.up {
+  height: 50px;
+  width: 50px;
+}

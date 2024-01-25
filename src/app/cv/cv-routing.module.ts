@@ -1,9 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { NavbarComponent } from './pages/navbar/navbar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './pages/about/about.component';
-import { ExperienceComponent } from './pages/experience/experience.component';
-import { KnowledgeComponent } from './pages/knowledge/knowledge.component';
 
 const routes: Routes = [
   {
@@ -11,27 +9,20 @@ const routes: Routes = [
     component: NavbarComponent,
     children: [
       {
-        path: 'about',
-        component: AboutComponent
-      },
-      {
-        path: 'experience',
-        component: ExperienceComponent
-      },
-      {
-        path: 'knowledge',
-        component: KnowledgeComponent
+        path: '',
+        component: AboutComponent,
+        pathMatch: 'full',
       },
       {
         path: '**',
-        redirectTo: 'about'
+        redirectTo: '',
       },
-    ]
+    ],
   },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class CvRoutingModule { }
+export class CvRoutingModule {}
