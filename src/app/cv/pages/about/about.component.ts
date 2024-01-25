@@ -52,11 +52,11 @@ export class AboutComponent {
   }
 
   private verificarVisibilidad() {
-    const modosDeJuego = document.getElementById('experience');
+    const experience = document.getElementById('experience');
     const scrollPosition = window.scrollY + window.innerHeight;
-    const elementPosition = modosDeJuego!.offsetTop;
+    const elementPosition = experience!.offsetTop;
 
-    if (scrollPosition >= elementPosition + 200) {
+    if (scrollPosition >= elementPosition + 75) {
       this.mostrarBoton = true;
     } else {
       this.mostrarBoton = false;
@@ -64,7 +64,7 @@ export class AboutComponent {
   }
 
   scrollToSection(id: string) {
-    const element = this.el.nativeElement.querySelector(`#${id}`);
+    const element: HTMLElement = this.el.nativeElement.querySelector(`#${id}`);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }

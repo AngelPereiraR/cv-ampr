@@ -36,7 +36,7 @@ export class NavbarComponent {
   }
 
   public scrollToSection(sectionId: string) {
-    const section = this.el.nativeElement.querySelector(`#${sectionId}`);
+    const section: HTMLElement = this.el.nativeElement.querySelector(`#${sectionId}`);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
