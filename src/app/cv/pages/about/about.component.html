@@ -1,6 +1,6 @@
-<div class="container about">
-  <div class="row m-5 content">
-    <div class="col-8" id="about">
+<div class="about">
+  <div class="row m-5">
+    <div class="col-7 col-md-9 info" id="about">
       <h1 id="top">
         <b>{{ "about.title" | transloco }}</b>
       </h1>
@@ -16,84 +16,31 @@
         <b>{{ "about.objectives.title" | transloco }}</b>
       </h2>
       <p class="pb-4">{{ "about.objectives.value" | transloco }}</p>
-      <h2>
-        <b>{{ "about.plans.title" | transloco }}</b>
-      </h2>
-      <ol>
-        <div>
-          <li>{{ "about.plans.first_project.value" | transloco }}</li>
-          <div class="row mt-3 mx-1">
-            <div class="col">
-              {{ "about.plans.first_project.description" | transloco }}
-              <div class="row p-3 text-center">
-                <div class="col-3 mx-3">Backend: NestJS</div>
-                <div class="col-3 mx-3">Frontend: Angular</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <li>{{ "about.plans.first_course.value" | transloco }}</li>
-        </div>
-        <div>
-          <li>{{ "about.plans.second_project.value" | transloco }}</li>
-          <div class="row mt-3 mx-1">
-            <div class="col">
-              {{ "about.plans.second_project.description" | transloco }}
-              <div class="row p-3 text-center">
-                <div class="col-3 mx-3">Backend: Java (Spring)</div>
-                <div class="col-3 mx-3">Frontend: Flutter</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <li>{{ "about.plans.third_project.value" | transloco }}</li>
-          <div class="row mt-3 mx-1">
-            <div class="col">
-              {{ "about.plans.third_project.description" | transloco }}
-              <div class="row p-3 text-center">
-                <div class="col-3 mx-3">Backend: NestJS</div>
-                <div class="col-3 mx-3">Frontend: Flutter</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <li>{{ "about.plans.forth_project.value" | transloco }}</li>
-          <div class="row mt-3 mx-1">
-            <div class="col">
-              {{ "about.plans.forth_project.description" | transloco }}
-              <div class="row p-3 text-center">
-                <div class="col-3 mx-3">Backend: Java (Spring)</div>
-                <div class="col-3 mx-3">Frontend: Angular</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <li>{{ "about.plans.fifth_project.value" | transloco }}</li>
-          <div class="row mt-3 mx-1">
-            <div class="col">
-              {{ "about.plans.fifth_project.description" | transloco }}
-              <div class="row p-3 text-center">
-                <div class="col-3 mx-3">
-                  {{ "about.plans.fifth_project.backend" | transloco }}
-                </div>
-                <div class="col-3 mx-3">Frontend: Angular</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <li>{{ "about.plans.second_course.value" | transloco }}</li>
-        </div>
-        <div>
-          <li>{{ "about.plans.third_course.value" | transloco }}</li>
-        </div>
-      </ol>
+      <div class="d-none d-md-block">
+        <h2>
+          <b>{{ "about.how.title" | transloco }}</b>
+        </h2>
+        <p>
+          {{ "about.how.first_phrase" | transloco }}
+        </p>
+        <p>
+          {{ "about.how.second_phrase" | transloco }}
+        </p>
+        <p>
+          {{ "about.how.third_phrase" | transloco }}
+        </p>
+        <p>
+          {{ "about.how.forth_phrase" | transloco }}
+        </p>
+        <p>
+          {{ "about.how.fifth_phrase" | transloco }}
+        </p>
+        <p>
+          {{ "about.how.sixth_phrase" | transloco }}
+        </p>
+      </div>
     </div>
-    <div class="col-4">
+    <div class="col-5 col-md-3">
       <img
         src="../assets/Imagen-personal.webp"
         alt="imagen personal"
@@ -119,6 +66,111 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="row mx-5">
+    <div class="d-block d-md-none">
+      <h2>
+        <b>{{ "about.how.title" | transloco }}</b>
+      </h2>
+      <p>
+        {{ "about.how.first_phrase" | transloco }}
+      </p>
+      <p>
+        {{ "about.how.second_phrase" | transloco }}
+      </p>
+      <p>
+        {{ "about.how.third_phrase" | transloco }}
+      </p>
+      <p>
+        {{ "about.how.forth_phrase" | transloco }}
+      </p>
+      <p>
+        {{ "about.how.fifth_phrase" | transloco }}
+      </p>
+      <p class="pb-4">
+        {{ "about.how.sixth_phrase" | transloco }}
+      </p>
+    </div>
+    <h2>
+      <b>{{ "about.plans.title" | transloco }}</b>
+    </h2>
+    <ol>
+      <div>
+        <li>{{ "about.plans.first_project.value" | transloco }}</li>
+        <div class="row mt-3 mx-1">
+          <div class="col">
+            {{ "about.plans.first_project.description" | transloco }}
+            <div class="row p-3">
+              <div class="col-4 col-lg-3 col-xl-2 mx-1">Backend: NestJS</div>
+              <div class="col-4 col-lg-3 col-xl-2 mx-1">Frontend: Angular</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <li>{{ "about.plans.first_course.value" | transloco }}</li>
+      </div>
+      <div>
+        <li>{{ "about.plans.second_project.value" | transloco }}</li>
+        <div class="row mt-3 mx-1">
+          <div class="col">
+            {{ "about.plans.second_project.description" | transloco }}
+            <div class="row p-3">
+              <div class="col-4 col-lg-3 col-xl-2 mx-1">
+                Backend: Java (Spring)
+              </div>
+              <div class="col-4 col-lg-3 col-xl-2 mx-1">Frontend: Flutter</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <li>{{ "about.plans.third_project.value" | transloco }}</li>
+        <div class="row mt-3 mx-1">
+          <div class="col">
+            {{ "about.plans.third_project.description" | transloco }}
+            <div class="row p-3">
+              <div class="col-4 col-lg-3 col-xl-2 mx-1">Backend: NestJS</div>
+              <div class="col-4 col-lg-3 col-xl-2 mx-1">Frontend: Flutter</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <li>{{ "about.plans.forth_project.value" | transloco }}</li>
+        <div class="row mt-3 mx-1">
+          <div class="col">
+            {{ "about.plans.forth_project.description" | transloco }}
+            <div class="row p-3">
+              <div class="col-4 col-lg-3 col-xl-2 mx-1">
+                Backend: Java (Spring)
+              </div>
+              <div class="col-4 col-lg-3 col-xl-2 mx-1">Frontend: Angular</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <li>{{ "about.plans.fifth_project.value" | transloco }}</li>
+        <div class="row mt-3 mx-1">
+          <div class="col">
+            {{ "about.plans.fifth_project.description" | transloco }}
+            <div class="row p-3">
+              <div class="col-4 col-lg-3 col-xl-2 mx-1">
+                {{ "about.plans.fifth_project.backend" | transloco }}
+              </div>
+              <div class="col-4 col-lg-3 col-xl-2 mx-1">Frontend: Angular</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <li>{{ "about.plans.second_course.value" | transloco }}</li>
+      </div>
+      <div>
+        <li>{{ "about.plans.third_course.value" | transloco }}</li>
+      </div>
+    </ol>
   </div>
 </div>
 <div class="experience-projects">

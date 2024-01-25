@@ -13,6 +13,15 @@
       "title": "Objetivos",
       "value": "Estoy interesado en el desarrollo para Android e IOS, especialmente en el backend."
     },
+    "how": {
+      "title": "¿Cómo decidí dedicarme a esto?",
+      "first_phrase": "Desde mi infancia, siempre tuve una fascinación por los ordenadores y los videojuegos.",
+      "second_phrase": "Al ingresar al primer año de Educación Secundaria Obligatoria (ESO), decidí sumergirme en el aprendizaje de un lenguaje de programación, y la elección fue el lenguaje C.",
+      "third_phrase": "A lo largo de los años de la ESO, desarrollé varias aplicaciones simples a medida que iba adquiriendo conocimientos de programación de manera gradual.",
+      "forth_phrase": "Fue en el primer año de Bachillerato cuando comencé a explorar las bases de HTML, un lenguaje fundamental para el desarrollo web.",
+      "fifth_phrase": "En ese momento, tomé la decisión de convertirme en programador.",
+      "sixth_phrase": "Al completar el Bachillerato, opté por iniciar el grado superior de Desarrollo de Aplicaciones Multiplataforma (DAM)."
+    },
     "plans": {
       "title": "Planes a corto plazo",
       "first_project": {
@@ -59,7 +68,7 @@
           "year": "2021",
           "first_section_month": {
             "month": "Septiembre - Diciembre",
-            "first_phrase": "Comienzo el primer curso del grado superior DAM (Desarrollo de Aplicaciones Multiplataforma).",
+            "first_phrase": "Comienzo el primer curso del grado superior Desarrollo de Aplicaciones Multiplataforma (DAM).",
             "second_phrase": "Empiezo a aprender Java (hasta bucles y arrays), HTML, CSS, SQL y RSS."
           }
         },

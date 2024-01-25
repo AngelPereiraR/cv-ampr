@@ -13,7 +13,15 @@
       "title": "Objectives",
       "value": "I am interested in development for Android and IOS, especially the backend."
     },
-
+    "how": {
+      "title": "How did I decide to pursue this?",
+      "first_phrase": "Since my childhood, I've always had a fascination with computers and video games.",
+      "second_phrase": "Upon entering the first year of Compulsory Secondary Education (ESO), I decided to delve into learning a programming language, and the choice was the C language.",
+      "third_phrase": "Throughout the years of ESO, I developed several simple applications as I gradually acquired programming knowledge.",
+      "forth_phrase": "It was in the first year of high school when I started exploring the fundamentals of HTML, a crucial language for web development.",
+      "fifth_phrase": "At that point, I made the decision to become a programmer.",
+      "sixth_phrase": "Upon completing high school, I chose to pursue the higher degree in Multiplatform Application Development (DAM)."
+    },
     "plans": {
       "title": "Short term plans",
       "first_project": {
@@ -60,7 +68,7 @@
           "year": "2021",
           "first_section_month": {
             "month": "September - December",
-            "first_phrase": "Started the first year of the DAM (Multiplatform Application Development) higher degree.",
+            "first_phrase": "Started the first year of the Multiplatform Application Development (DAM) higher degree.",
             "second_phrase": "Began learning Java (up to loops and arrays), HTML, CSS, SQL and RSS."
           }
         },
