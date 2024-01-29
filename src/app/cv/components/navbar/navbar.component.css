@@ -48,3 +48,25 @@ a {
 ul {
   display: inline;
 }
+
+button {
+  background-color: transparent;
+  border: transparent;
+}
+
+.drawer-container {
+  height: 100%;
+}
+
+.drawer {
+  width: 200px;
+}
+
+.content {
+  margin-left: 200px; /* Ajusta según el ancho del drawer */
+  transition: margin-left 0.3s ease;
+}
+
+mat-icon {
+  color: white;
+}

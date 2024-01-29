@@ -36,6 +36,6 @@ export class CarouselComponent {
   startSlideshow(): void {
     setInterval(() => {
       this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
-    }, 3000); // Change slide every 3 seconds
+    }, 2000);
   }
 }

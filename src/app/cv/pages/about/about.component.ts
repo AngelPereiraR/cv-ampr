@@ -17,7 +17,7 @@ interface MenuItem {
   animations: [AnimationService.getSlideInAnimation()],
 })
 export class AboutComponent {
-  mostrarBoton = false;
+  mostrarBoton = true;
 
   constructor(private el: ElementRef) {}
 
@@ -45,23 +45,6 @@ export class AboutComponent {
     { route: '../assets/tecnologies/nestjs.svg', name: 'NestJS' },
     { route: '../assets/tecnologies/docker.svg', name: 'Docker' },
   ];
-
-  @HostListener('window:scroll', ['$event'])
-  onScroll() {
-    this.verificarVisibilidad();
-  }
-
-  private verificarVisibilidad() {
-    const experience = document.getElementById('experience');
-    const scrollPosition = window.scrollY + window.innerHeight;
-    const elementPosition = experience!.offsetTop;
-
-    if (scrollPosition >= elementPosition + 75) {
-      this.mostrarBoton = true;
-    } else {
-      this.mostrarBoton = false;
-    }
-  }
 
   scrollToSection(id: string) {
     const element: HTMLElement = this.el.nativeElement.querySelector(`#${id}`);

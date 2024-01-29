@@ -1,4 +1,5 @@
-import { Component, ElementRef } from '@angular/core';
+import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
+import { MatDrawer } from '@angular/material/sidenav';
 import { TranslocoService } from '@ngneat/transloco';
 
 interface MenuItem {
@@ -10,6 +11,9 @@ interface MenuItem {
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent {
+  showFiller = false;
+  mostrarBoton = true;
+
   constructor(
     private translocoService: TranslocoService,
     private el: ElementRef
@@ -35,10 +39,10 @@ export class NavbarComponent {
     //   : (document.body.style.direction = 'ltr');
   }
 
-  public scrollToSection(sectionId: string) {
-    const section: HTMLElement = this.el.nativeElement.querySelector(`#${sectionId}`);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  scrollToSection(id: string) {
+    const element: HTMLElement = this.el.nativeElement.querySelector(`#${id}`);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }
 }
