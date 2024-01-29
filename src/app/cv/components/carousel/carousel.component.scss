@@ -1,0 +1,89 @@
+.slideshow {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.usd {
+  display: inline;
+}
+
+div.card-content {
+  font-size: 20px;
+  margin-top: 5px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+div.card-footer {
+  margin-top: 25px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+div.info {
+  text-align: justify;
+}
+
+div.card,
+mat-card {
+  padding: 8px;
+  background: rgba(255, 255, 255, 0);
+  color: black;
+  align-items: center;
+
+  @media (min-width: 80em) {
+    max-width: 30%;
+  }
+
+  @media (min-width: 46em) and (max-width: 80em) {
+    max-width: 45%;
+  }
+
+  @media (max-width: 46em) {
+    max-width: 90%;
+  }
+}
+
+div.card h1 {
+  font-weight: bold;
+}
+
+mat-card {
+  background: rgba(5, 94, 135, 0.2);
+}
+
+img {
+  height: auto;
+  transition: transform 0.5s;
+
+  @media (min-width: 80em) {
+    max-width: 70%;
+  }
+
+  @media (min-width: 46em) and (max-width: 80em) {
+    max-width: 85%;
+  }
+
+  @media (max-width: 46em) {
+    max-width: 100%;
+  }
+}
+
+.vertical {
+  @media (min-width: 80em) {
+    max-width: 30%;
+  }
+
+  @media (min-width: 46em) and (max-width: 80em) {
+    max-width: 35%;
+  }
+
+  @media (max-width: 46em) {
+    max-width: 40%;
+  }
+}

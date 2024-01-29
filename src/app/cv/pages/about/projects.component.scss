@@ -1,6 +1,5 @@
 div.experience-projects {
 
-
   .usd {
     display: inline;
   }
@@ -73,11 +72,11 @@ div.experience-projects {
 
   .vertical {
     @media (min-width: 80em) {
-      max-width: 25%;
+      max-width: 30%;
     }
 
     @media (min-width: 46em) and (max-width: 80em) {
-      max-width: 30%;
+      max-width: 35%;
     }
 
     @media (max-width: 46em) {

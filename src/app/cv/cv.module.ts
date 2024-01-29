@@ -6,9 +6,20 @@ import { MaterialModule } from '../material/material.module';
 import { CvRoutingModule } from './cv-routing.module';
 import { TranslocoRootModule } from '../transloco-root.module';
 import { CommonBackgroundComponent } from './components/common-background/common-background.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
-  declarations: [AboutComponent, NavbarComponent, CommonBackgroundComponent],
-  imports: [CommonModule, MaterialModule, CvRoutingModule, TranslocoRootModule],
+  declarations: [
+    AboutComponent,
+    NavbarComponent,
+    CommonBackgroundComponent,
+    CarouselComponent,
+  ],
+  imports: [
+    CommonModule,
+    MaterialModule,
+    CvRoutingModule,
+    TranslocoRootModule,
+  ],
 })
 export class CvModule {}

@@ -140,6 +140,15 @@
           "title": "Proyectos alojados en Internet",
           "description": "Proyectos que tengo en la red o disponibles para descargar.",
           "first_project": {
+            "description": "Gestión Empresas",
+            "first_phrase": "El proyecto es una aplicación que simplifica la gestión de catálogos para empresas y permite a los clientes hacer pedidos de forma interactiva.",
+            "second_phrase": "Para empresas, ofrece funciones de inicio de sesión y gestión de catálogo, visualización con filtros y gestión de sugerencias de clientes.",
+            "third_phrase": "Los clientes, tras registro y validación, exploran catálogos, gestionan un carrito, dan sugerencias y generan pedidos con confirmación adicional.",
+            "forth_phrase": "El administrador controla la gestión de usuarios, datos de empresas, productos, categorías, sugerencias y pedidos, teniendo un control total sobre la aplicación.",
+            "fifth_phrase": "En resumen, mejora la interacción y eficiencia en la gestión de pedidos entre empresas y clientes.",
+            "download": "Descargar"
+          },
+          "second_project": {
             "description": "FrutyFest (En desarrollo)",
             "first_phrase": "La página web del FrutyFest, un evento organizado por ByFruty, streamer de Twitch y YouTuber, ofrece información sobre las ediciones pasadas y futuras del evento.",
             "second_phrase": "Presenta una tabla con los participantes seleccionados y un ranking basado en las puntuaciones obtenidas.",

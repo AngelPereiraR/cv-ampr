@@ -140,6 +140,15 @@
           "title": "Projects Hosted on the Internet",
           "description": "Projects that I have on the web or available for download.",
           "first_project": {
+            "description": "Business Management",
+            "first_phrase": "The project is an application that streamlines catalog management for companies and allows customers to place orders interactively.",
+            "second_phrase": "For companies, it provides login and catalog management functions, viewing with filters, and customer suggestion management.",
+            "third_phrase": "Customers, after registration and validation, explore catalogs, manage a cart, provide suggestions, and generate orders with additional confirmation.",
+            "forth_phrase": "The administrator oversees user management, company data, products, categories, suggestions, and orders, maintaining complete control over the application.",
+            "fifth_phrase": "In summary, it enhances interaction and efficiency in order management between companies and customers.",
+            "download": "Download"
+          },
+          "second_project": {
             "description": "FrutyFest (In development)",
             "first_phrase": "The FrutyFest website, an event organized by ByFruty, Twitch streamer, and YouTuber, provides information about past and future editions of the event.",
             "second_phrase": "It features a table with selected participants and a ranking based on the scores obtained.",
