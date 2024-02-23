@@ -13,6 +13,7 @@ interface MenuItem {
 export class NavbarComponent {
   showFiller = false;
   mostrarBoton = true;
+  @ViewChild('drawer') drawer!: MatDrawer;
 
   constructor(
     private translocoService: TranslocoService,
@@ -39,10 +40,19 @@ export class NavbarComponent {
     //   : (document.body.style.direction = 'ltr');
   }
 
+  scrollToSectionAndToggleDrawer(id: string) {
+    this.scrollToSection(id);
+    this.toggleDrawer();
+  }
+
   scrollToSection(id: string) {
     const element: HTMLElement = this.el.nativeElement.querySelector(`#${id}`);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+  }
+
+  toggleDrawer() {
+    this.drawer.close();
   }
 }

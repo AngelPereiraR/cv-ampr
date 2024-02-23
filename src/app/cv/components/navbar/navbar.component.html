@@ -5,7 +5,7 @@
       <div class="row m-3">
         <a
           class="list-group-item mx-1 hover text-center"
-          (click)="scrollToSection('about')"
+          (click)="scrollToSectionAndToggleDrawer('about')"
         >
           {{ "navbar.buttons.about" | transloco }}
         </a>
@@ -13,7 +13,7 @@
       <div class="row m-3">
         <a
           class="list-group-item mx-1 hover text-center"
-          (click)="scrollToSection('experience')"
+          (click)="scrollToSectionAndToggleDrawer('experience')"
         >
           {{ "navbar.buttons.experience" | transloco }}
         </a>
@@ -21,7 +21,7 @@
       <div class="row m-3">
         <a
           class="list-group-item mx-1 hover text-center"
-          (click)="scrollToSection('projects')"
+          (click)="scrollToSectionAndToggleDrawer('projects')"
         >
           {{ "navbar.buttons.projects" | transloco }}
         </a>
@@ -29,7 +29,7 @@
       <div class="row m-3">
         <a
           class="list-group-item mx-1 hover text-center"
-          (click)="scrollToSection('knowledge')"
+          (click)="scrollToSectionAndToggleDrawer('knowledge')"
         >
           {{ "navbar.buttons.knowledge" | transloco }}
         </a>
