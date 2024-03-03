@@ -21,6 +21,16 @@ div.experience-projects {
     text-align: justify;
   }
 
+  p {
+    @media (min-width: 80em) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 80em) {
+      font-size: 16px;
+    }
+  }
+
   div.card,
   mat-card {
     padding: 8px;

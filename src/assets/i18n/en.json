@@ -118,7 +118,7 @@
           "seventh_section_month": {
             "month": "November",
             "first_phrase": "Created my personal website.",
-            "link": "portfolio-angelpereira.netlify.app"
+            "link": "https://portfolio-angelpereira.netlify.app"
           },
           "eighth_section_month": {
             "month": "November - December",
@@ -200,21 +200,26 @@
         "certificates": {
           "title": "< Certificates />",
           "first_certificate": {
+            "title": "Flutter - Móvil: De cero a experto",
+            "institution": "Cambridge",
+            "year": "2024"
+          },
+          "second_certificate": {
             "title": "Angular: De cero a experto - Edición 2023",
             "institution": "Udemy",
             "year": "2023"
           },
-          "second_certificate": {
+          "third_certificate": {
             "title": "JavaScript Moderno: Guía para dominar el lenguaje",
             "institution": "Udemy",
             "year": "2023"
           },
-          "third_certificate": {
+          "forth_certificate": {
             "title": "Legacy - Flutter: Tu guía completa para IOS y Android",
             "institution": "Udemy",
             "year": "2022-2023"
           },
-          "forth_certificate": {
+          "fifth_certificate": {
             "title": "English - Level B2",
             "institution": "Cambridge",
             "year": "2019"
