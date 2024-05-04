@@ -25,28 +25,24 @@
     "plans": {
       "title": "Short term plans",
       "first_project": {
-        "value": "Execution of a project (Currently in development).",
-        "description": "| Project for FrutyFest, an event by ByFruty, Twitch streamer, and YouTuber."
+        "value": "Execution of various projects (Currently in development).",
+        "description": "| Applications and Web as gifts for family members."
       },
       "second_project": {
         "value": "Execution of a project (Currently in development).",
-        "description": "| Fixing the final project for the higher degree."
+        "description": "| Mobile application for Household Inventory."
       },
       "third_project": {
         "value": "Execution of a project.",
-        "description": "| Mobile application for Household Inventory."
-      },
-      "forth_project": {
-        "value": "Execution of a project.",
         "description": "| Website for a hair salon."
       },
-      "fifth_project": {
+      "forth_project": {
         "value": "Execution of a project.",
         "description": "| Website to showcase and manage a client's portfolio.",
         "backend": "Backend: To be determined"
       },
       "first_course": {
-        "value": "Completion of a Udemy course about Flutter (In progress)."
+        "value": "Completion of a YouTube course about HTML and CSS (In progress)."
       },
       "second_course": {
         "value": "Completion of a Udemy course about Ionic."
@@ -77,7 +73,7 @@
           "first_section_month": {
             "month": "January - May",
             "first_phrase": "Continued the first year of DAM until completion in May.",
-            "second_phrase": "Continued learning Java (lists, collections, Java 8, the basics of MySQL databases and desktop interfaces; collaborated on my first desktop interface project), SQL and XML."
+            "second_phrase": "Continued learning Java (lists, collections, Java 8, basics of MySQL databases and desktop interfaces; collaborated on my first desktop interface project), SQL and XML."
           },
           "second_section_month": {
             "month": "September - December",
@@ -109,11 +105,11 @@
           },
           "fifth_section_month": {
             "month": "September",
-            "first_phrase": "Learned JavaScript and ViteJS, thanks to Fernando Herrera's course 'JavaScript Moderno: Guía para dominar el lenguaje' and applied it to educational projects."
+            "first_phrase": "I learn JavaScript and ViteJS thanks to Fernando Herrera's course 'Modern JavaScript: Guide to mastering the language'. I apply what I learned in the educational projects of the course."
           },
           "sixth_section_month": {
             "month": "October - November",
-            "first_phrase": "Learned TypeScript, Angular, and NestJS, as well as Docker usage, thanks to Fernando Herrera's course 'Angular: De cero a experto' and applied them to educational projects."
+            "first_phrase": "I learn TypeScript, Angular and NestJS, in addition to Docker, thanks to Fernando Herrera's course 'Angular: From zero to expert'. I apply what I learned in the educational projects of the course."
           },
           "seventh_section_month": {
             "month": "November",
@@ -132,6 +128,19 @@
             "first_phrase": "Continued FrutyFest and released the 'beta' version of the website.",
             "link": "https://frutyfest.netlify.app",
             "second_phrase": "Updated my personal website. Changed its organization, short-term plans, projects, and Quality of Life for the site."
+          },
+          "second_section_month": {
+            "month": "February - March",
+            "first_phrase": "I deepened my knowledge in Flutter thanks to Fernando Herrera's course 'Flutter - Mobile: From zero to expert'.",
+            "second_phrase": "I continue developing FrutyFest.",
+            "third_phrase": "Create a mobile application project as a gift for my father for his birthday."
+          },
+          "third_section_month": {
+            "month": "April - May",
+            "first_phrase": "I finish developing the FrutyFest website.",
+            "second_phrase": "Create a mobile application project as a gift for my mother for her birthday.",
+            "third_phrase": "Official publication of FrutyFest.",
+            "link": "https://frutyfest.netlify.app"
           }
         }
       },
@@ -149,7 +158,7 @@
             "download": "Download"
           },
           "second_project": {
-            "description": "FrutyFest (In development)",
+            "description": "FrutyFest",
             "first_phrase": "The FrutyFest website, an event organized by ByFruty, Twitch streamer, and YouTuber, provides information about past and future editions of the event.",
             "second_phrase": "It features a table with selected participants and a ranking based on the scores obtained.",
             "third_phrase": "To participate, users must register and be selected by an administrator, who can also manage teams and game modes in the database.",
@@ -201,7 +210,7 @@
           "title": "< Certificates />",
           "first_certificate": {
             "title": "Flutter - Móvil: De cero a experto",
-            "institution": "Cambridge",
+            "institution": "Udemy",
             "year": "2024"
           },
           "second_certificate": {
