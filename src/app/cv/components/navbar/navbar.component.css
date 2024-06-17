@@ -70,3 +70,8 @@ button {
 mat-icon {
   color: white;
 }
+
+.background {
+  color: black;
+  font-weight: bold;
+}
